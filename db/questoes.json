@@ -1,0 +1,84 @@
+{
+  "versao_prepom": "2026",
+  "data_atualizacao": "2026-03-02",
+  "questoes": [
+    {
+      "id": 1,
+      "category": "Matemática",
+      "pergunta": "Em uma embarcação, um marinheiro observa que 3/5 da tripulação estão de serviço e o restante está folgando. Se há 24 tripulantes de folga, qual é o total de tripulantes na embarcação?",
+      "opcoes": [
+        "40",
+        "50",
+        "60",
+        "72",
+        "80"
+      ],
+      "respostaCorreta": 2
+    },
+    {
+      "id": 2,
+      "category": "Matemática",
+      "pergunta": "Uma embarcação consome 400 litros de combustível a cada 3 horas de navegação com velocidade constante. Quantos litros serão consumidos em uma viagem de 15 horas?",
+      "opcoes": [
+        "1200",
+        "1500",
+        "2000",
+        "2400",
+        "3000"
+      ],
+      "respostaCorreta": 2
+    },
+    {
+      "id": 3,
+      "category": "Português",
+      "pergunta": "Analise a frase: 'O marinheiro realizou a faina diária com dedicação, embora estivesse cansado.' O termo destacado (embora) estabelece uma relação de:",
+      "opcoes": [
+        "Causa",
+        "Condição",
+        "Tempo",
+        "Concessão",
+        "Consequência"
+      ],
+      "respostaCorreta": 3
+    },
+    {
+      "id": 4,
+      "category": "Português",
+      "pergunta": "Assinale a alternativa onde TODAS as palavras estão acentuadas corretamente de acordo com o Novo Acordo Ortográfico:",
+      "opcoes": [
+        "Ideia - Pêlo - Baía",
+        "Voo - Joia - Saúde",
+        "Pôlo - Árvore - Ímã",
+        "Ruím - Herói - Jibóia",
+        "Enjôo - Céu - Heróico"
+      ],
+      "respostaCorreta": 1
+    },
+    {
+      "id": 5,
+      "category": "Matemática",
+      "pergunta": "Para preparar a pintura do convés, a tripulação mistura 4 partes de tinta para 1 parte de solvente. Se eles dispõem de 12 litros de solvente, quantos litros de mistura pronta terão no total?",
+      "opcoes": [
+        "48 litros",
+        "50 litros",
+        "60 litros",
+        "72 litros",
+        "16 litros"
+      ],
+      "respostaCorreta": 2
+    },
+    {
+      "id": 6,
+      "category": "Português",
+      "pergunta": "Assinale a alternativa em que há um erro de regência verbal, frequentemente cobrada nos exames do CFAQ:",
+      "opcoes": [
+        "O comandante assistiu ao exercício de abandono do navio.",
+        "Nós sempre obedecemos os regulamentos da Marinha Mercante.",
+        "A tripulação visa a uma ascensão de categoria rápida.",
+        "Chegamos à Capitania dos Portos bem cedo.",
+        "Esta é a embarcação de que mais gosto."
+      ],
+      "respostaCorreta": 1
+    }
+  ]
+}
