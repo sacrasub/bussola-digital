@@ -13,7 +13,7 @@ export default defineConfig({
     react(),
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['favicon.svg', 'pwa-icon.svg', 'data/questions.json', 'data/flashcards.json'],
+      includeAssets: ['favicon.svg', 'pwa-icon.svg', 'data/questions.json', 'data/flashcards.json', 'data/slides.json'],
       manifest: {
         name: 'Simulado Arrais - Bússola Digital',
         short_name: 'SimuladoArrais',

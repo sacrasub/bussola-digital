@@ -1,5 +1,5 @@
 import React from 'react';
-import { ShieldCheck, BookOpen, AlertTriangle, BarChart3, Eye } from 'lucide-react';
+import { ShieldCheck, BookOpen, BarChart3, Eye, Presentation, AlertTriangle } from 'lucide-react';
 import { ActiveTab } from '../types';
 
 interface Props {
@@ -28,13 +28,13 @@ export const MobileBottomNav: React.FC<Props> = ({
   return (
     <nav
       aria-label="Navegação Rápida Mobile"
-      className="md:hidden fixed bottom-0 left-0 right-0 z-50 bg-navy-950/95 backdrop-blur-xl border-t border-navy-800/90 shadow-[0_-8px_25px_rgba(0,0,0,0.5)] px-2 py-1.5 safe-area-pb"
+      className="md:hidden fixed bottom-0 left-0 right-0 z-50 bg-navy-950/95 backdrop-blur-xl border-t border-navy-800/90 shadow-[0_-8px_25px_rgba(0,0,0,0.5)] px-1 py-1.5 safe-area-pb"
     >
       <div className="flex items-center justify-around max-w-lg mx-auto">
         {/* 1. Simulados */}
         <button
           onClick={handleExamClick}
-          className={`flex flex-col items-center justify-center py-1 px-2.5 rounded-2xl transition-all relative active:scale-95 min-w-[64px] ${
+          className={`flex flex-col items-center justify-center py-1 px-2 rounded-2xl transition-all relative active:scale-95 ${
             activeTab === 'exam'
               ? 'text-gold-400 font-extrabold'
               : 'text-slate-400 hover:text-slate-200'
@@ -55,10 +55,31 @@ export const MobileBottomNav: React.FC<Props> = ({
           )}
         </button>
 
-        {/* 2. Treino / Temas */}
+        {/* 2. Slides das Aulas */}
+        <button
+          onClick={() => onSelectTab('slides')}
+          className={`flex flex-col items-center justify-center py-1 px-2 rounded-2xl transition-all active:scale-95 ${
+            activeTab === 'slides'
+              ? 'text-amber-400 font-extrabold'
+              : 'text-slate-400 hover:text-slate-200'
+          }`}
+        >
+          <div
+            className={`p-1.5 rounded-xl transition-all ${
+              activeTab === 'slides'
+                ? 'bg-amber-500/20 text-amber-400 ring-1 ring-amber-500/40 shadow-sm'
+                : 'bg-transparent text-slate-400'
+            }`}
+          >
+            <Presentation className="w-5 h-5" />
+          </div>
+          <span className="text-[10px] tracking-tight mt-0.5 font-bold">Slides</span>
+        </button>
+
+        {/* 3. Treino / Temas */}
         <button
           onClick={() => onSelectTab('study')}
-          className={`flex flex-col items-center justify-center py-1 px-2.5 rounded-2xl transition-all active:scale-95 min-w-[64px] ${
+          className={`flex flex-col items-center justify-center py-1 px-2 rounded-2xl transition-all active:scale-95 ${
             activeTab === 'study'
               ? 'text-sky-400 font-extrabold'
               : 'text-slate-400 hover:text-slate-200'
@@ -76,7 +97,7 @@ export const MobileBottomNav: React.FC<Props> = ({
           <span className="text-[10px] tracking-tight mt-0.5 font-bold">Treino</span>
         </button>
 
-        {/* Atalho Central de Destaque: Luzes 360° */}
+        {/* 4. Luzes 360° */}
         <button
           onClick={() => onSelectTab('lights')}
           className={`flex flex-col items-center justify-center py-1 px-2 rounded-2xl transition-all active:scale-95 ${
@@ -89,7 +110,7 @@ export const MobileBottomNav: React.FC<Props> = ({
             className={`p-1.5 rounded-xl transition-all ${
               activeTab === 'lights'
                 ? 'bg-cyan-500/20 text-cyan-300 ring-1 ring-cyan-500/40 shadow-sm'
-                : 'bg-navy-900 border border-navy-800 text-slate-400'
+                : 'bg-transparent text-slate-400'
             }`}
           >
             <Eye className="w-5 h-5" />

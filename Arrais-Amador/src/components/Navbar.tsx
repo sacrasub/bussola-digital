@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Compass, BookOpen, Layers, Award, ShieldCheck, Menu, X, Wifi, WifiOff, GraduationCap, Eye } from 'lucide-react';
+import { Compass, BookOpen, Layers, Award, ShieldCheck, Menu, X, Wifi, WifiOff, GraduationCap, Eye, Presentation } from 'lucide-react';
 import { ActiveTab } from '../types';
 
 interface Props {
@@ -31,6 +31,7 @@ export const Navbar: React.FC<Props> = ({
 
   const navItems: { id: ActiveTab; label: string; icon: React.ReactNode; badge?: number | string }[] = [
     { id: 'home', label: 'Início', icon: <Compass className="w-4 h-4" /> },
+    { id: 'slides', label: 'Slides', icon: <Presentation className="w-4 h-4 text-gold-400" />, badge: 'Aulas' },
     { id: 'concepts', label: 'Aprender', icon: <GraduationCap className="w-4 h-4" />, badge: 'Teoria' },
     { id: 'lights', label: 'Luzes 360°', icon: <Eye className="w-4 h-4 text-cyan-400" />, badge: 'Novo' },
     { id: 'study', label: 'Treinar', icon: <BookOpen className="w-4 h-4" /> },

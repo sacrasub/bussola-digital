@@ -1,11 +1,12 @@
 import React from 'react';
-import { Compass, BookOpen, Layers, AlertTriangle, Award, ShieldCheck, Anchor, ArrowRight, Zap, GraduationCap, Eye, Ship, Timer } from 'lucide-react';
+import { Compass, BookOpen, Layers, AlertTriangle, Award, ShieldCheck, Anchor, ArrowRight, Zap, GraduationCap, Eye, Ship, Timer, Presentation } from 'lucide-react';
 
 interface Props {
   onStartOfficialExam: () => void;
   onStartMotonautaExam: () => void;
   onStartSprintExam: () => void;
   onGoToLights: () => void;
+  onGoToSlides: () => void;
   onGoToConcepts: () => void;
   onGoToStudy: () => void;
   onGoToFlashcards: () => void;
@@ -20,6 +21,7 @@ export const HomeScreen: React.FC<Props> = ({
   onStartMotonautaExam,
   onStartSprintExam,
   onGoToLights,
+  onGoToSlides,
   onGoToConcepts,
   onGoToStudy,
   onGoToFlashcards,
@@ -76,6 +78,14 @@ export const HomeScreen: React.FC<Props> = ({
             </button>
 
             <button
+              onClick={onGoToSlides}
+              className="px-5 py-3.5 rounded-2xl bg-amber-500 hover:bg-amber-400 text-navy-950 font-extrabold text-sm shadow-xl shadow-amber-500/20 active:scale-95 transition-all flex items-center gap-2"
+            >
+              <Presentation className="w-4 h-4" />
+              <span>Slides das Aulas</span>
+            </button>
+
+            <button
               onClick={onGoToLights}
               className="px-5 py-3.5 rounded-2xl bg-navy-800 hover:bg-navy-700 text-slate-200 border border-navy-600 font-bold text-sm active:scale-95 transition-all flex items-center gap-2"
             >
@@ -86,7 +96,7 @@ export const HomeScreen: React.FC<Props> = ({
         </div>
       </div>
 
-      {/* 5 Feature Modules Grid */}
+      {/* Feature Modules Grid */}
       <div className="space-y-4">
         <h2 className="text-xl font-extrabold text-slate-100 flex items-center gap-2">
           <Award className="w-5 h-5 text-gold-400" />
@@ -94,6 +104,32 @@ export const HomeScreen: React.FC<Props> = ({
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          {/* Card: Slides das Aulas */}
+          <div
+            onClick={onGoToSlides}
+            className="bg-navy-900/90 hover:bg-navy-800/90 border border-navy-700/80 hover:border-amber-500/50 p-6 rounded-2xl transition-all cursor-pointer group shadow-lg flex flex-col justify-between space-y-4 active:scale-98"
+          >
+            <div className="space-y-3">
+              <div className="w-12 h-12 rounded-xl bg-amber-500/10 border border-amber-500/30 text-amber-400 flex items-center justify-center group-hover:scale-110 transition-transform">
+                <Presentation className="w-6 h-6" />
+              </div>
+              <div className="flex items-center justify-between">
+                <h3 className="font-extrabold text-slate-100 text-base group-hover:text-amber-400 transition-colors">
+                  Aulas & Slides
+                </h3>
+                <span className="text-[10px] uppercase font-bold text-amber-400 bg-amber-500/20 px-2 py-0.5 rounded-full border border-amber-500/30">
+                  Dia 1 a 3
+                </span>
+              </div>
+              <p className="text-xs text-slate-400 leading-relaxed">
+                Apresentações completas em alta definição das 3 aulas dos instrutores para projetar e estudar slide a slide.
+              </p>
+            </div>
+            <span className="text-xs font-bold text-amber-400 flex items-center gap-1 group-hover:translate-x-1 transition-transform">
+              Ver Apresentações <ArrowRight className="w-3.5 h-3.5" />
+            </span>
+          </div>
+
           {/* Card 1: Aprender Conceitos */}
           <div
             onClick={onGoToConcepts}

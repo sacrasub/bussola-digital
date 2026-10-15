@@ -85,5 +85,23 @@ export interface Flashcard {
   imageType?: IllustrationType;
 }
 
-export type ActiveTab = 'home' | 'concepts' | 'study' | 'exam' | 'flashcards' | 'stats' | 'errors' | 'lights';
+export interface SlideItem {
+  number: number;
+  image: string;
+}
+
+export interface SlideLesson {
+  id: string;
+  day: number;
+  title: string;
+  subtitle: string;
+  category: string;
+  instructor: string;
+  totalSlides: number;
+  folder: string;
+  isUpcoming?: boolean;
+  slides: SlideItem[];
+}
+
+export type ActiveTab = 'home' | 'concepts' | 'study' | 'exam' | 'flashcards' | 'stats' | 'errors' | 'lights' | 'slides';
 

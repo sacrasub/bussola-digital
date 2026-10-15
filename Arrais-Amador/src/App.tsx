@@ -9,6 +9,7 @@ import { FlashcardsScreen } from './components/FlashcardsScreen';
 import { ResultDashboard } from './components/ResultDashboard';
 import { PerformanceDashboard } from './components/PerformanceDashboard';
 import { NightLightsSimulator } from './components/NightLightsSimulator';
+import { SlideViewerScreen } from './components/SlideViewerScreen';
 import { MobileBottomNav } from './components/MobileBottomNav';
 import { ActiveTab, ExamResult, OfficialCategory, StudyFilter } from './types';
 import { Compass, AlertCircle, ShieldCheck, Ship, Timer, ArrowRight, Zap, CheckCircle2 } from 'lucide-react';
@@ -166,6 +167,7 @@ export const App: React.FC = () => {
                 onStartMotonautaExam={handleStartMotonautaExam}
                 onStartSprintExam={handleStartSprintExam}
                 onGoToLights={() => setActiveTab('lights')}
+                onGoToSlides={() => setActiveTab('slides')}
                 onGoToConcepts={() => setActiveTab('concepts')}
                 onGoToStudy={() => setActiveTab('study')}
                 onGoToFlashcards={() => setActiveTab('flashcards')}
@@ -173,6 +175,12 @@ export const App: React.FC = () => {
                 errorCount={wrongQuestionIds.length}
                 totalQuestions={allQuestions.length}
                 totalFlashcards={allFlashcards.length}
+              />
+            )}
+
+            {activeTab === 'slides' && (
+              <SlideViewerScreen
+                onStartStudyWithCategory={(cat) => handleStartStudy(cat, undefined, 'ALL')}
               />
             )}
 
