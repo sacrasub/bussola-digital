@@ -341,9 +341,10 @@ export const HomeScreen: React.FC<Props> = ({
               1. Balizamento IALA Região B (Brasil)
             </span>
             <ul className="space-y-1.5 text-slate-300">
-              <li>• <strong>Entrada de Canal:</strong> Encarnado a Boreste (direita, ímpar) e Verde a Bombordo (esquerda, par).</li>
-              <li>• <strong>Saída de Canal:</strong> Inverte (as luzes do barco casam com as boias: Verde a BE e Encarnada a BB).</li>
-              <li>• <strong>Perigo Isolado:</strong> 2 esferas pretas no tope, luz branca Fl(2).</li>
+              <li>• <strong>Macete RRR (Red Right Return):</strong> Vermelha à direita (boreste) ao retornar/entrar no porto!</li>
+              <li>• <strong>Entrada:</strong> Encarnada a Boreste (direita, ímpar) e Verde a Bombordo (esquerda, par).</li>
+              <li>• <strong>Saída:</strong> Barco sai "arrumado" (luzes casam com boias: verde a BE, encarnada a BB).</li>
+              <li>• <strong>Perigo Isolado:</strong> 2 esferas pretas verticais, luz branca Fl(2).</li>
               <li>• <strong>Águas Seguras:</strong> Faixas verticais brancas e encarnadas, 1 esfera encarnada.</li>
             </ul>
           </div>
@@ -351,13 +352,14 @@ export const HomeScreen: React.FC<Props> = ({
           {/* Box 2 */}
           <div className="bg-navy-950/70 border border-navy-800 p-4 rounded-2xl space-y-2">
             <span className="font-bold text-sky-400 uppercase tracking-wider block">
-              2. Sinais Sonoros de Manobra
+              2. Sinais Sonoros (Macete do "B")
             </span>
             <ul className="space-y-1.5 text-slate-300">
-              <li>• <strong>1 curto (•):</strong> Guino para Boreste (direita).</li>
-              <li>• <strong>2 curtos (••):</strong> Guino para Bombordo (esquerda).</li>
-              <li>• <strong>3 curtos (•••):</strong> Dando atrás (marcha a ré).</li>
-              <li>• <strong>5 curtos rápidos:</strong> Dúvida / perigo iminente.</li>
+              <li>• <strong>BE (1 letra B):</strong> 1 curto (•) — Guino para Boreste (direita).</li>
+              <li>• <strong>BB (2 letras B):</strong> 2 curtos (••) — Guino para Bombordo (esquerda).</li>
+              <li>• <strong>Marcha a Ré (1+2=3):</strong> 3 curtos (•••) — Dando máquinas atrás.</li>
+              <li>• <strong>5 curtos rápidos:</strong> Dúvida / perigo / não entendi sua manobra.</li>
+              <li>• <strong>Curva de rio/canal:</strong> 1 longo (4 a 6 segundos) de advertência.</li>
             </ul>
           </div>
 
@@ -367,21 +369,23 @@ export const HomeScreen: React.FC<Props> = ({
               3. Regras de Manobra (RIPEAM)
             </span>
             <ul className="space-y-1.5 text-slate-300">
-              <li>• <strong>Roda a Roda:</strong> Ambas guinam para Boreste (BB com BB).</li>
-              <li>• <strong>Rumos Cruzados:</strong> Quem vê o outro por Boreste deve manobrar.</li>
-              <li>• <strong>Alcançado:</strong> A alcançada tem preferência total.</li>
+              <li>• <strong>"Direita, Desvia":</strong> Se avistou a outra por boreste, manobre pela popa dela!</li>
+              <li>• <strong>Roda a Roda:</strong> Ambas guinam para Boreste (passagem BB com BB).</li>
+              <li>• <strong>Alcançado:</strong> A alcançada tem preferência total (quem alcança desvia).</li>
+              <li>• <strong>Veleiros:</strong> Vento por bordos diferentes, quem recebe por boreste tem preferência.</li>
             </ul>
           </div>
 
           {/* Box 4 */}
           <div className="bg-navy-950/70 border border-navy-800 p-4 rounded-2xl space-y-2">
             <span className="font-bold text-emerald-400 uppercase tracking-wider block">
-              4. Legislação & Normas 2026
+              4. Distâncias & Normas de Trânsito
             </span>
             <ul className="space-y-1.5 text-slate-300">
-              <li>• <strong>Arrais-Amador:</strong> Navegação interior (exceto moto aquática).</li>
-              <li>• <strong>Motonauta:</strong> Exclusivo para moto aquática (jet-ski).</li>
-              <li>• <strong>CHA Digital:</strong> Emitida com Gov.br (NORMAM-211/2026).</li>
+              <li>• <strong>Distância da Praia:</strong> 200m a motor (100m água doce) / 100m vela e remo.</li>
+              <li>• <strong>Velocidade:</strong> Máximo 3 nós nas proximidades de marinas e clubes.</li>
+              <li>• <strong>Esqui Aquático:</strong> Piloto + 1 observador para a ré (lotação mínima 3 pessoas).</li>
+              <li>• <strong>Bandeira do Brasil:</strong> Obrigatória na popa se &gt; 5m (das 8h ao pôr do sol).</li>
             </ul>
           </div>
 
