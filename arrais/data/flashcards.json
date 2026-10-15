@@ -1,0 +1,292 @@
+[
+  {
+    "id": "fc-sound-1",
+    "category": "Sinais Sonoros",
+    "title": "1 Apito Curto (•)",
+    "subtitle": "Manobra RIPEAM (1 segundo)",
+    "front": "Qual o significado de 1 apito curto (duração de ~1s) emitido por uma embarcação de propulsão mecânica à vista da outra?",
+    "back": "ESTOU GUINANDO PARA BORESTE (DIREITA).",
+    "normReference": "RIPEAM Regra 34(a)",
+    "signalType": "short_1",
+    "icon": "Volume2",
+    "soundDuration": [
+      1
+    ]
+  },
+  {
+    "id": "fc-sound-2",
+    "category": "Sinais Sonoros",
+    "title": "2 Apitos Curtos (••)",
+    "subtitle": "Manobra RIPEAM (1 segundo cada)",
+    "front": "Qual o significado de 2 apitos curtos emitidos em manobra?",
+    "back": "ESTOU GUINANDO PARA BOMBORDO (ESQUERDA).",
+    "normReference": "RIPEAM Regra 34(a)",
+    "signalType": "short_2",
+    "icon": "Volume2",
+    "soundDuration": [
+      1,
+      1
+    ]
+  },
+  {
+    "id": "fc-sound-3",
+    "category": "Sinais Sonoros",
+    "title": "3 Apitos Curtos (•••)",
+    "subtitle": "Manobra RIPEAM",
+    "front": "Qual o significado de 3 apitos curtos emitidos por uma embarcação?",
+    "back": "ESTOU DANDO ATRÁS (MÁQUINAS EM MARCHA A RÉ).",
+    "normReference": "RIPEAM Regra 34(a)",
+    "signalType": "short_3",
+    "icon": "Volume2",
+    "soundDuration": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "id": "fc-sound-4",
+    "category": "Sinais Sonoros",
+    "title": "5 Apitos Curtos e Rápidos (•••••)",
+    "subtitle": "Sinal de Dúvida / Perigo",
+    "front": "Qual o significado de 5 ou mais apitos curtos e rápidos?",
+    "back": "SINAL DE DÚVIDA OU PERIGO IMINENTE: 'Não compreendi suas intenções de manobra' ou 'Duvido que você esteja agindo para evitar a colisão'.",
+    "normReference": "RIPEAM Regra 34(d)",
+    "signalType": "danger_5",
+    "icon": "AlertTriangle",
+    "soundDuration": [
+      0.4,
+      0.4,
+      0.4,
+      0.4,
+      0.4
+    ]
+  },
+  {
+    "id": "fc-sound-5",
+    "category": "Sinais Sonoros",
+    "title": "1 Apito Longo (—)",
+    "subtitle": "Curvas em Rios e Canais (4 a 6 segundos)",
+    "front": "Qual o sinal sonoro obrigatório ao se aproximar de uma curva em canal estreito ou rio sem visibilidade?",
+    "back": "1 APITO LONGO (4 a 6 segundos). Qualquer embarcação além da curva que o ouvir deverá responder com outro apito longo.",
+    "normReference": "RIPEAM Regra 34(e)",
+    "signalType": "long_1",
+    "icon": "Volume2",
+    "soundDuration": [
+      4
+    ]
+  },
+  {
+    "id": "fc-sound-6",
+    "category": "Sinais Sonoros",
+    "title": "1 Apito Longo a cada 2 min (— ... —)",
+    "subtitle": "Visibilidade Restrita (Com Seguimento)",
+    "front": "Qual sinal de cerração indica embarcação a motor em movimento com seguimento no mar?",
+    "back": "1 APITO LONGO a intervalos não superiores a 2 minutos.",
+    "normReference": "RIPEAM Regra 35(a)",
+    "signalType": "fog_motor",
+    "icon": "CloudFog",
+    "soundDuration": [
+      4
+    ]
+  },
+  {
+    "id": "fc-sound-7",
+    "category": "Sinais Sonoros",
+    "title": "2 Apitos Longos a cada 2 min (—— ... ——)",
+    "subtitle": "Visibilidade Restrita (Sem Seguimento)",
+    "front": "Qual sinal sonoro indica embarcação a motor sob máquinas paradas (sem seguimento)?",
+    "back": "2 APITOS LONGOS consecutivos separados por 2 segundos, a intervalos de até 2 minutos.",
+    "normReference": "RIPEAM Regra 35(b)",
+    "signalType": "fog_stopped",
+    "icon": "CloudFog",
+    "soundDuration": [
+      4,
+      4
+    ]
+  },
+  {
+    "id": "fc-buoy-1",
+    "category": "Balizamento IALA B",
+    "title": "Sinal Lateral de Boreste",
+    "subtitle": "Entrada de Canal (Brasil)",
+    "front": "No Brasil (Região B), qual a cor, formato do tope e luz da boia de BORESTE para quem entra no porto?",
+    "back": "• Cor: VERDE\n• Formato: Cônico ou pilar\n• Tope: Cone verde apontado para CIMA\n• Luz: Verde (qualquer ritmo exceto Fl(2+1))\n• Regra de ouro: BORESTE = VERDE (deixar à direita ao entrar)",
+    "normReference": "IALA Região B / NORMAM-211",
+    "icon": "Anchor",
+    "imageType": "buoy_starboard"
+  },
+  {
+    "id": "fc-buoy-2",
+    "category": "Balizamento IALA B",
+    "title": "Sinal Lateral de Bombordo",
+    "subtitle": "Entrada de Canal (Brasil)",
+    "front": "No Brasil (Região B), qual a cor, formato do tope e luz da boia de BOMBORDO para quem entra no porto?",
+    "back": "• Cor: ENCARNADA (Vermelha)\n• Formato: Cilíndrico ou cego\n• Tope: Cilindro encarnado\n• Luz: Encarnada (qualquer ritmo exceto Fl(2+1))\n• Regra de ouro: BOMBORDO = ENCARNADO (deixar à esquerda ao entrar)",
+    "normReference": "IALA Região B / NORMAM-211",
+    "icon": "Anchor",
+    "imageType": "buoy_port"
+  },
+  {
+    "id": "fc-buoy-3",
+    "category": "Balizamento IALA B",
+    "title": "Sinal de Perigo Isolado",
+    "subtitle": "Obstáculo Pontual Seguro ao Redor",
+    "front": "Como identificar uma boia de PERIGO ISOLADO (cores, tope e luz)?",
+    "back": "• Cores: PRETA com faixas horizontais ENCARNADAS\n• Tope: DUAS ESFERAS PRETAS sobrepostas\n• Luz: Branca lampejante em grupo de 2 (Fl(2))\n• Significado: Perigo isolado com águas navegáveis em toda a sua volta.",
+    "normReference": "IALA Região B",
+    "icon": "AlertOctagon",
+    "imageType": "buoy_isolated_danger"
+  },
+  {
+    "id": "fc-buoy-4",
+    "category": "Balizamento IALA B",
+    "title": "Sinal de Águas Seguras",
+    "subtitle": "Meio de Canal / Entrada de Barra",
+    "front": "Como identificar um sinal de ÁGUAS SEGURAS?",
+    "back": "• Cores: FAIXAS VERTICAIS ENCARNADAS E BRANCAS\n• Tope: UMA ESFERA ENCARNADA\n• Luz: Branca isofásica, ocultação ou Morse 'A' (• —)\n• Significado: Águas seguras e profundas em todo o seu redor.",
+    "normReference": "IALA Região B",
+    "icon": "Compass",
+    "imageType": "buoy_safe_water"
+  },
+  {
+    "id": "fc-buoy-5",
+    "category": "Balizamento IALA B",
+    "title": "Canal Preferencial a Boreste",
+    "subtitle": "Bifurcação de Canal",
+    "front": "Qual a pintura da boia que indica que o Canal Principal / Preferencial fica a BORESTE?",
+    "back": "• Cor: VERDE com FAIXA ENCARNADA horizontal no centro.\n• Luz: Verde lampejante composta (Fl(2+1))\n• Significado: O canal recomendado está à direita (boreste) do sinal.",
+    "normReference": "IALA Região B",
+    "icon": "Navigation",
+    "imageType": "buoy_preferred_channel"
+  },
+  {
+    "id": "fc-buoy-6",
+    "category": "Balizamento IALA B",
+    "title": "Sinais Cardinais (N, S, L, O)",
+    "subtitle": "Quadrantes de Navegação",
+    "front": "Como memorizar os 4 sinais cardinais pelos cones pretos?",
+    "back": "• NORTE (N): 2 cones para CIMA ▲▲ (Preto sobre Amarelo)\n• SUL (S): 2 cones para BAIXO ▼▼ (Amarelo sobre Preto)\n• LESTE (E): Cones pelas BASES ▲▼ (Preto/Amarelo/Preto)\n• OESTE (W): Cones pelos VÉRTICES ▼▲ (Amarelo/Preto/Amarelo)",
+    "normReference": "IALA Região B",
+    "icon": "Compass",
+    "imageType": "buoy_cardinal"
+  },
+  {
+    "id": "fc-lights-1",
+    "category": "Luzes e Marcas",
+    "title": "Luzes de Navegação Básicas",
+    "subtitle": "Setores e Arcos Horizontais",
+    "front": "Quais são as cores e os setores horizontais das 3 luzes regulamentares?",
+    "back": "1. Mastro: BRANCA, setor de 225° na proa (vante).\n2. Bordos: VERDE a Boreste (112,5°) e ENCARNADA a Bombordo (112,5°).\n3. Alcançado: BRANCA, setor de 135° na popa (ré).",
+    "normReference": "RIPEAM Regra 21",
+    "icon": "Sun",
+    "imageType": "nav_lights"
+  },
+  {
+    "id": "fc-lights-2",
+    "category": "Luzes e Marcas",
+    "title": "Embarcação Fundeada",
+    "subtitle": "Sinais Noturnos e Diurnos",
+    "front": "Quais são os sinais para embarcação fundeada?",
+    "back": "• Noite: 1 Luz branca circular de 360° no mastro/vante.\n• Dia: 1 ESFERA PRETA (balão preto) exibida a vante.",
+    "normReference": "RIPEAM Regra 30",
+    "icon": "Anchor",
+    "imageType": "day_shape_anchored"
+  },
+  {
+    "id": "fc-lights-3",
+    "category": "Luzes e Marcas",
+    "title": "Embarcação Sem Governo",
+    "subtitle": "Incapaz de Manobrar por Avaria",
+    "front": "Quais as luzes e marcas de embarcação SEM GOVERNO?",
+    "back": "• Noite: 2 LUZES ENCARNADAS circulares verticais (360°).\n• Dia: 2 ESFERAS PRETAS verticais sobrepostas.\n• Frase de ouro: 'Duas vermelhas verticais = Sem governo no mar'.",
+    "normReference": "RIPEAM Regra 27(a)",
+    "icon": "AlertTriangle",
+    "imageType": "day_shape_not_under_command"
+  },
+  {
+    "id": "fc-maneuver-1",
+    "category": "Regras de Manobra",
+    "title": "Situação 'Roda a Roda'",
+    "subtitle": "Proa com Proa",
+    "front": "Duas embarcações a motor se aproximam diretamente proa com proa. Como manobram?",
+    "back": "AMBAS DEVEM GUINAR PARA BORESTE (DIREITA), passando bombordo com bombordo.",
+    "normReference": "RIPEAM Regra 14",
+    "icon": "Navigation",
+    "imageType": "maneuver_head_on"
+  },
+  {
+    "id": "fc-maneuver-2",
+    "category": "Regras de Manobra",
+    "title": "Rumos Cruzados",
+    "subtitle": "Direito de Passagem",
+    "front": "Duas embarcações a motor em rumos que se cruzam. Quem tem a obrigação de manobrar?",
+    "back": "A que avistar a outra por seu BORESTE (direita) DEVE MANOBRAR e evitar cruzar a sua proa.\n(Quem vê verde passa; quem vê encarnada manobra!).",
+    "normReference": "RIPEAM Regra 15",
+    "icon": "Navigation",
+    "imageType": "maneuver_crossing"
+  },
+  {
+    "id": "fc-maneuver-3",
+    "category": "Regras de Manobra",
+    "title": "Embarcação Alcançadora",
+    "subtitle": "Ultrapassagem",
+    "front": "Na ultrapassagem, quem tem preferência de passagem?",
+    "back": "A EMBARCAÇÃO ALCANÇADA TEM PREFERÊNCIA. Quem está alcançando deve se manter afastada até passar totalmente.",
+    "normReference": "RIPEAM Regra 13",
+    "icon": "Navigation",
+    "imageType": "maneuver_overtaking"
+  },
+  {
+    "id": "fc-cbinc-1",
+    "category": "Combate a Incêndio",
+    "title": "Classes de Incêndio (A, B, C)",
+    "subtitle": "Agentes Extintores Recomendados",
+    "front": "Como combater as Classes de Fogo A, B e C?",
+    "back": "• Classe A (Sólidos): Resfriamento com Água ou Espuma.\n• Classe B (Líquidos): Abafamento com CO2, Pó Químico ou Espuma.\n• Classe C (Elétrico energizado): CO2 ou Pó Químico. NUNCA USAR ÁGUA!",
+    "normReference": "CBINC / NORMAM-211",
+    "icon": "Flame",
+    "imageType": "fire_triangle"
+  },
+  {
+    "id": "fc-prisoc-1",
+    "category": "Primeiros Socorros",
+    "title": "Reanimação Cardiopulmonar (RCP)",
+    "subtitle": "Protocolo 30:2",
+    "front": "Qual o protocolo oficial de RCP em adultos a bordo?",
+    "back": "• 30 compressões torácicas no centro do peito para 2 ventilações de resgate (30:2).\n• Ritmo: 100 a 120 compressões por minuto.\n• Profundidade: 5 a 6 cm.",
+    "normReference": "Manual de Primeiros Socorros Marinha",
+    "icon": "HeartPulse",
+    "imageType": "first_aid"
+  },
+  {
+    "id": "fc-legis-1",
+    "category": "Legislação Náutica",
+    "title": "Arrais-Amador vs Motonauta",
+    "subtitle": "Limites de Habilitação (NORMAM-211/2026)",
+    "front": "O Arrais-Amador pode conduzir moto aquática (jet-ski)?",
+    "back": "NÃO! O Arrais-Amador conduz embarcações nos limites da NAVEGAÇÃO INTERIOR (rios, lagos, baías e canais), EXCETO moto aquática, que exige habilitação específica de MOTONAUTA (MTA).",
+    "normReference": "NORMAM-211/DPC (2026)",
+    "icon": "Award"
+  },
+  {
+    "id": "fc-legis-2",
+    "category": "Legislação Náutica",
+    "title": "Categorias de Amadores",
+    "subtitle": "Graus de Habilitação Náutica",
+    "front": "Quais são as categorias de amadores na ordem de abrangência?",
+    "back": "1. Veleiro (VLA): Apenas embarcações a vela sem motor (navegação interior).\n2. Motonauta (MTA): Moto aquática (navegação interior).\n3. Arrais-Amador (ARA): Navegação interior (exceto moto aquática).\n4. Mestre-Amador (MSA): Navegação costeira (até 20 milhas da costa).\n5. Capitão-Amador (CPA): Navegação oceânica / sem limite de afastamento.",
+    "normReference": "NORMAM-211/DPC (2026)",
+    "icon": "Compass"
+  },
+  {
+    "id": "fc-legis-3",
+    "category": "Legislação Náutica",
+    "title": "Documentos Obrigatórios",
+    "subtitle": "A bordo em Navegação",
+    "front": "Quais documentos devem estar a bordo durante a navegação de esporte/recreio?",
+    "back": "1. Carteira de Habilitação do Condutor (CHA física ou digital no Gov.br).\n2. Título de Inscrição da Embarcação (TIE/TIEM físico ou digital).\n3. Comprovante de pagamento do seguro obrigatório (DPEM, quando exigível).",
+    "normReference": "NORMAM-211/DPC",
+    "icon": "FileText"
+  }
+]

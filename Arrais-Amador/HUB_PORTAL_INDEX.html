@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Bússola Digital: O portal náutico definitivo para habilitação de Amadores (Arrais-Amador, Motonauta) e Carreira Profissional Aquaviária (CIR, PREPOM, CFAQ, CAAQ).">
+    <title>Bússola Digital — Portal Náutico: Amadores & Profissionais da Marinha</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        /* Custom Hub Enhancements */
+        .hub-cards-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 24px;
+            margin-top: 2rem;
+            text-align: left;
+        }
+
+        .hub-card {
+            background: rgba(18, 31, 66, 0.7);
+            backdrop-filter: blur(16px);
+            border: 1px solid var(--glass-border);
+            border-radius: 24px;
+            padding: 32px;
+            transition: var(--transition);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hub-card:hover {
+            transform: translateY(-6px);
+            border-color: var(--gold);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+        }
+
+        .hub-card.card-amador {
+            border-top: 4px solid #38BDF8;
+        }
+
+        .hub-card.card-prof {
+            border-top: 4px solid var(--gold);
+        }
+
+        .pill-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 4px 12px;
+            border-radius: 999px;
+            font-size: 0.75rem;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 1rem;
+        }
+
+        .pill-amador {
+            background: rgba(56, 189, 248, 0.15);
+            color: #38BDF8;
+            border: 1px solid rgba(56, 189, 248, 0.3);
+        }
+
+        .pill-prof {
+            background: rgba(212, 175, 55, 0.15);
+            color: var(--gold);
+            border: 1px solid rgba(212, 175, 55, 0.3);
+        }
+
+        .feature-check-list {
+            list-style: none;
+            padding: 0;
+            margin: 1.2rem 0;
+        }
+
+        .feature-check-list li {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .feature-check-list li i {
+            color: var(--green-success);
+            font-size: 1.1rem;
+            flex-shrink: 0;
+        }
+
+        .table-responsive {
+            overflow-x: auto;
+            margin: 2rem 0;
+        }
+
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+            font-size: 0.9rem;
+        }
+
+        .comparison-table th,
+        .comparison-table td {
+            padding: 16px 20px;
+            border-bottom: 1px solid var(--glass-border);
+        }
+
+        .comparison-table th {
+            background: rgba(255, 255, 255, 0.05);
+            color: var(--text-primary);
+            font-family: var(--font-heading);
+            font-size: 1rem;
+        }
+
+        .comparison-table tr:hover {
+            background: rgba(255, 255, 255, 0.02);
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-content">
+            <a href="#" class="brand">
+                <i class="ph-fill ph-compass"></i>
+                <span>Bússola Digital</span>
+            </a>
+            <div class="nav-links">
+                <a href="#amador">Amador (Arrais)</a>
+                <a href="#profissional">Profissional (CIR)</a>
+                <a href="#comparativo">Qual Escolher?</a>
+                <a href="arrais/" class="btn btn-primary btn-sm shine-effect">
+                    <i class="ph-fill ph-boat"></i> Simulado Arrais PWA
+                </a>
+                <a href="simulador.html" class="btn btn-outline btn-sm">
+                    <i class="ph-bold ph-exam"></i> Simulado CIR CFAQ
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <div class="badge-premium">
+                    <span class="pulse-dot"></span> Portal Náutico Unificado do Brasil
+                </div>
+                <h1 class="hero-title">Sua Rota Náutica: <span class="text-gradient">Amador ou Profissional</span> da Marinha.</h1>
+                <p class="hero-subtitle">
+                    Quer pilotar lanchas e jet-skis a lazer (<strong>CHA Arrais-Amador</strong>) ou construir uma carreira de altos ganhos na Marinha Mercante (<strong>CIR / PREPOM</strong>)? Escolha o seu objetivo e acesse materiais, guias e simuladores 100% gratuitos.
+                </p>
+
+                <!-- 2 Big Action Cards on Hero -->
+                <div class="hub-cards-grid">
+                    <!-- Amador Card -->
+                    <div class="hub-card card-amador">
+                        <div>
+                            <span class="pill-badge pill-amador">
+                                <i class="ph-fill ph-anchor"></i> Esporte e Recreio
+                            </span>
+                            <h2 style="font-size: 1.4rem; color: #fff; margin-bottom: 0.5rem;">Arrais-Amador & Motonauta</h2>
+                            <p style="font-size: 0.85rem; color: var(--text-secondary); line-height: 1.5;">
+                                Habilitação para conduzir lanchas, veleiros e embarcações de recreio em rios, represas, lagos e baías.
+                            </p>
+
+                            <ul class="feature-check-list">
+                                <li><i class="ph-bold ph-check-circle"></i> Simulado Oficial da Capitania (40 Q. / 120min)</li>
+                                <li><i class="ph-bold ph-check-circle"></i> Teoria NORMAM-211 Atualizada 2026</li>
+                                <li><i class="ph-bold ph-check-circle"></i> Flashcards 3D com Áudio de Apitos Reais</li>
+                                <li><i class="ph-bold ph-check-circle"></i> Funciona 100% Offline no Celular (PWA)</li>
+                            </ul>
+                        </div>
+
+                        <div style="margin-top: 1.5rem; display: flex; flex-direction: column; gap: 8px;">
+                            <a href="arrais/" class="btn btn-primary btn-full shine-effect">
+                                <i class="ph-fill ph-play-circle"></i> Abrir App Simulado Arrais
+                            </a>
+                            <a href="#amador" class="btn btn-outline btn-full" style="font-size: 0.85rem;">
+                                Como Tirar Arrais-Amador 👇
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Profissional Card -->
+                    <div class="hub-card card-prof">
+                        <div>
+                            <span class="pill-badge pill-prof">
+                                <i class="ph-fill ph-briefcase"></i> Carreira Aquaviária
+                            </span>
+                            <h2 style="font-size: 1.4rem; color: #fff; margin-bottom: 0.5rem;">Aquaviário Profissional (CIR)</h2>
+                            <p style="font-size: 0.85rem; color: var(--text-secondary); line-height: 1.5;">
+                                Ingresse na Marinha Mercante pelo PREPOM (CFAQ/CAAQ). Cursos gratuitos com alimentação e alojamento.
+                            </p>
+
+                            <ul class="feature-check-list">
+                                <li><i class="ph-bold ph-check-circle"></i> Simulador Português & Matemática CFAQ</li>
+                                <li><i class="ph-bold ph-check-circle"></i> Radar de Editais Abertos nas Capitanias</li>
+                                <li><i class="ph-bold ph-check-circle"></i> Plano de Ação para Aprovação na CIR</li>
+                                <li><i class="ph-bold ph-check-circle"></i> Salários de R$ 4.000 a R$ 12.000+</li>
+                            </ul>
+                        </div>
+
+                        <div style="margin-top: 1.5rem; display: flex; flex-direction: column; gap: 8px;">
+                            <a href="simulador.html" class="btn btn-primary btn-full shine-effect">
+                                <i class="ph-fill ph-exam"></i> Fazer Simulado CFAQ Grátis
+                            </a>
+                            <a href="plano_de_acao.html" class="btn btn-outline btn-full" style="font-size: 0.85rem;">
+                                Ver Plano de Ação da CIR 👇
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ocean-wave"></div>
+    </header>
+
+    <!-- Seção 1: Guia Arrais-Amador -->
+    <section id="amador" class="section bg-light" style="background: rgba(18, 31, 66, 0.4); padding: 5rem 0;">
+        <div class="container">
+            <div class="text-center" style="max-width: 700px; margin: 0 auto 3rem auto;">
+                <span class="pill-badge pill-amador">
+                    <i class="ph-fill ph-boat"></i> Habilitação de Amador
+                </span>
+                <h2 class="section-title">Como Tirar a Habilitação de <span class="text-gradient">Arrais-Amador</span></h2>
+                <p class="section-subtitle">
+                    A Carteira de Habilitação de Amador (CHA) na categoria Arrais permite conduzir embarcações de esporte e recreio em águas interiores. Veja o passo a passo oficial da Marinha do Brasil (NORMAM-211/DPC Atualizada 2026):
+                </p>
+            </div>
+
+            <div class="grid grid-3">
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="ph-bold ph-identification-card"></i></div>
+                    <h3>1. Requisitos Básicos</h3>
+                    <p>Ser maior de 18 anos, apresentar documento oficial com CPF (Gov.br), comprovante de residência e atestado médico de aptidão física e mental (ou CNH válida).</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="ph-bold ph-steering-wheel"></i></div>
+                    <h3>2. Aulas Práticas (6 Horas)</h3>
+                    <p>Realizar treinamento prático obrigatório de no mínimo 6 horas embarcado em Escola Náutica cadastrada na Capitania dos Portos para emissão da Declaração de Frequência.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="ph-bold ph-certificate"></i></div>
+                    <h3>3. Prova Teórica na Capitania</h3>
+                    <p>Exame teórico de <strong>40 questões</strong> de múltipla escolha (RIPEAM, Balizamento IALA B, Legislação, Manobra e Primeiros Socorros/CBINC). Aprovação com nota mínima de <strong>50% (20 acertos)</strong>.</p>
+                </div>
+            </div>
+
+            <div style="margin-top: 3rem; text-align: center;">
+                <div class="glass-card" style="max-width: 800px; margin: 0 auto; padding: 2.5rem; border: 1px solid rgba(56, 189, 248, 0.3);">
+                    <h3 style="color: #38BDF8; margin-bottom: 0.5rem;">Pronto para Estudar e Passar de Primeira?</h3>
+                    <p style="color: var(--text-secondary); margin-bottom: 1.5rem;">
+                        Acesse nosso aplicativo web moderno com 294 questões oficiais comentadas, guia teórico e simulador de apitos sonoros reais.
+                    </p>
+                    <a href="arrais/" class="btn btn-primary btn-lg shine-effect">
+                        <i class="ph-fill ph-compass"></i> Acessar Simulado Arrais-Amador Grátis
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção 2: Guia Profissional CIR -->
+    <section id="profissional" class="section" style="padding: 5rem 0;">
+        <div class="container">
+            <div class="text-center" style="max-width: 700px; margin: 0 auto 3rem auto;">
+                <span class="pill-badge pill-prof">
+                    <i class="ph-fill ph-anchor"></i> Marinha Mercante
+                </span>
+                <h2 class="section-title">Como Conquistar a sua <span class="text-gradient">CIR</span> (Profissional)</h2>
+                <p class="section-subtitle">
+                    A Caderneta de Inscrição e Registro (CIR) é a carteira de trabalho do marítimo. Permite trabalhar legalmente a bordo de rebocadores, navios de apoio offshore (plataformas de petróleo), navios de cruzeiro e transporte fluvial.
+                </p>
+            </div>
+
+            <div class="grid grid-3">
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="ph-bold ph-graduation-cap"></i></div>
+                    <h3>1. Cursos Gratuitos do PREPOM</h3>
+                    <p>A Marinha do Brasil oferece os cursos CFAQ-MOC (Convés), CFAQ-MAC (Máquinas) e CAAQ-CTS 100% gratuitos, com material didático e alimentação inclusos.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="ph-bold ph-exam"></i></div>
+                    <h3>2. Processo Seletivo</h3>
+                    <p>Prova escrita com questões de Língua Portuguesa e Matemática (nível fundamental/médio), seguida de teste de aptidão física (50m de natação e 10min de flutuação).</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="ph-bold ph-currency-circle-dollar"></i></div>
+                    <h3>3. Carreira & Altos Salários</h3>
+                    <p>Após a formatura (cerca de 3 meses de curso), você recebe sua CIR e certificados STCW, com escalas de 14x14 ou 28x28 dias e salários iniciais atrativos.</p>
+                </div>
+            </div>
+
+            <div style="margin-top: 3rem; text-align: center; display: flex; flex-wrap: wrap; justify-content: center; gap: 16px;">
+                <a href="simulador.html" class="btn btn-primary btn-lg shine-effect">
+                    <i class="ph-fill ph-calculator"></i> Fazer Simulado CFAQ (Português & Matemática)
+                </a>
+                <a href="plano_de_acao.html" class="btn btn-outline btn-lg">
+                    <i class="ph-bold ph-file-text"></i> Ler Plano de Ação da CIR
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção 3: Tabela Comparativa -->
+    <section id="comparativo" class="section bg-light" style="background: rgba(10, 17, 40, 0.6); padding: 4rem 0;">
+        <div class="container">
+            <div class="text-center" style="max-width: 650px; margin: 0 auto 2rem auto;">
+                <h2 class="section-title">Amador (CHA) vs Profissional (CIR)</h2>
+                <p class="section-subtitle">Entenda qual das habilitações é ideal para o seu momento atual:</p>
+            </div>
+
+            <div class="table-responsive glass-card" style="padding: 1.5rem;">
+                <table class="comparison-table">
+                    <thead>
+                        <tr>
+                            <th>Característica</th>
+                            <th style="color: #38BDF8;">Amador (Arrais-Amador / CHA)</th>
+                            <th style="color: var(--gold);">Profissional (Aquaviário / CIR)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Finalidade</strong></td>
+                            <td>Esporte, Recreio, Pesca Amadora, Turismo e Lazer.</td>
+                            <td>Trabalho remunerado na Marinha Mercante / Portuário.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Pode receber salário a bordo?</strong></td>
+                            <td>❌ Proibido qualquer atividade comercial/remunerada.</td>
+                            <td>✔️ Sim (Marítimo profissional com carteira e piso).</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Embarcações Permitidas</strong></td>
+                            <td>Lanchas, Veleiros, Barcos de pesca esportiva (em águas interiores).</td>
+                            <td>Navios de Apoio Offshore, Rebocadores, Balsas, Cruzeiros e Carga.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Como Ingressar</strong></td>
+                            <td>Aulas em Escola Náutica + Prova de 40 questões na Capitania.</td>
+                            <td>Concurso/Seleção do PREPOM (Português/Matemática) + TAF.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Custo do Curso</strong></td>
+                            <td>Aulas práticas pagas na escola náutica privada.</td>
+                            <td>100% Gratuito oferecido pela Marinha do Brasil.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Ferramenta no Portal</strong></td>
+                            <td><a href="arrais/" style="color: #38BDF8; font-weight: bold;">Simulado Arrais PWA ➔</a></td>
+                            <td><a href="simulador.html" style="color: var(--gold); font-weight: bold;">Simulado CFAQ / PREPOM ➔</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <a href="#" class="brand">
+                    <i class="ph-fill ph-compass"></i>
+                    <span>Bússola Digital</span>
+                </a>
+                <p>Plataforma náutica de capacitação para Amadores e Profissionais da Marinha do Brasil.</p>
+            </div>
+            <div class="footer-links">
+                <div class="link-group">
+                    <h4>Amador</h4>
+                    <a href="arrais/">Simulado Arrais-Amador</a>
+                    <a href="arrais/">Apostila NORMAM-211</a>
+                    <a href="arrais/">Flashcards 3D com Áudio</a>
+                </div>
+                <div class="link-group">
+                    <h4>Profissional</h4>
+                    <a href="simulador.html">Simulador CFAQ / CAAQ</a>
+                    <a href="plano_de_acao.html">Plano de Ação CIR</a>
+                    <a href="index.html#captura">Radar PREPOM</a>
+                </div>
+            </div>
+        </div>
+        <div class="container footer-bottom text-center">
+            <p>&copy; 2026 Bússola Digital. Todos os direitos reservados. Material de estudo em conformidade com as normas da Autoridade Marítima (DPC).</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

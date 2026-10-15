@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plano de Voo Dourado - Bússola Digital (6 Meses)</title>
+
+    <!-- Google Fonts & Phosphor Icons -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&family=Inter:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <style>
+        :root {
+            --navy-dark: #0A1128;
+            --navy-blue: #121F42;
+            --navy-light: #1A3166;
+            --gold: #D4AF37;
+            --white: #FFFFFF;
+            --text-muted: #9BA4B5;
+            --success: #06D6A0;
+            --danger: #EF476F;
+            --radius: 12px;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--navy-dark);
+            color: var(--white);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1,
+        h2,
+        h3 {
+            font-family: 'Outfit', sans-serif;
+            font-weight: 700;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 50px;
+            padding-bottom: 30px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .header h1 {
+            color: var(--gold);
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            color: var(--text-muted);
+            font-size: 1.1rem;
+        }
+
+        .timeline {
+            position: relative;
+            padding-left: 30px;
+            border-left: 2px solid rgba(212, 175, 55, 0.3);
+        }
+
+        .month-card {
+            background: rgba(18, 31, 66, 0.6);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: var(--radius);
+            padding: 25px;
+            margin-bottom: 30px;
+            position: relative;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            transition: transform 0.2s ease;
+        }
+
+        .month-card:hover {
+            transform: translateX(5px);
+            border-color: rgba(212, 175, 55, 0.3);
+        }
+
+        .month-card::before {
+            content: '';
+            position: absolute;
+            left: -39px;
+            top: 25px;
+            width: 16px;
+            height: 16px;
+            background: var(--navy-dark);
+            border: 3px solid var(--gold);
+            border-radius: 50%;
+            z-index: 2;
+        }
+
+        .month-title {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 1.5rem;
+            color: var(--gold);
+            margin-bottom: 15px;
+            margin-top: 0;
+        }
+
+        .month-goal {
+            background: rgba(212, 175, 55, 0.1);
+            color: var(--gold);
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            display: inline-block;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        ul.tasks {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        ul.tasks li {
+            margin-bottom: 15px;
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+        }
+
+        ul.tasks li i {
+            color: var(--success);
+            font-size: 1.2rem;
+            margin-top: 3px;
+        }
+
+        .responsibility {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            margin-right: 8px;
+        }
+
+        .resp-tecnico {
+            background: rgba(6, 214, 160, 0.2);
+            color: var(--success);
+            border: 1px solid rgba(6, 214, 160, 0.3);
+        }
+
+        .resp-parceiro {
+            background: rgba(239, 71, 111, 0.2);
+            color: var(--danger);
+            border: 1px solid rgba(239, 71, 111, 0.3);
+        }
+
+        .tip-box {
+            background: rgba(255, 255, 255, 0.03);
+            border-left: 4px solid var(--gold);
+            padding: 15px 20px;
+            margin-top: 20px;
+            border-radius: 0 8px 8px 0;
+            font-size: 0.95rem;
+            color: var(--text-muted);
+        }
+
+        .action-button {
+            display: block;
+            width: 100%;
+            text-align: center;
+            background: linear-gradient(135deg, var(--gold) 0%, #B89222 100%);
+            color: var(--navy-dark);
+            text-decoration: none;
+            padding: 15px;
+            border-radius: 8px;
+            font-family: 'Outfit', sans-serif;
+            font-weight: 700;
+            font-size: 1.1rem;
+            margin-top: 50px;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .action-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(212, 175, 55, 0.3);
+        }
+
+        /* Edit Mode Styles */
+        .editable[contenteditable="true"] {
+            outline: 1px dashed rgba(255, 255, 255, 0.3);
+            padding: 2px;
+            border-radius: 4px;
+            transition: all 0.2s;
+        }
+
+        .editable[contenteditable="true"]:hover {
+            background: rgba(255, 255, 255, 0.05);
+            outline: 1px dashed var(--gold);
+        }
+
+        .edit-controls {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: var(--navy-blue);
+            padding: 10px;
+            border-radius: 8px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            z-index: 100;
+            display: flex;
+            gap: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+        }
+
+        .btn-edit {
+            background: transparent;
+            color: white;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            padding: 8px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-family: 'Inter', sans-serif;
+            font-size: 0.9rem;
+            transition: 0.2s;
+        }
+
+        .btn-edit:hover {
+            background: rgba(255, 255, 255, 0.05);
+        }
+
+        .btn-save {
+            background: var(--gold);
+            color: var(--navy-dark);
+            border: none;
+            padding: 8px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="edit-controls">
+        <button class="btn-edit" id="toggleEdit"><i class="ph-bold ph-pencil-simple"></i> Ativar Edição</button>
+        <button class="btn-save" id="saveFile"><i class="ph-bold ph-floppy-disk"></i> Salvar HTML</button>
+    </div>
+
+    <div class="container">
+        <div class="header">
+            <h1 class="editable">Plano de Voo Dourado (1 a 6 Meses)</h1>
+            <p class="editable">O roteiro exato para a <strong>Máquina de Aprovação e Ascensão</strong> Bússola Digital
+                ir do Zero aos primeiros assinantes fiéis recorrentes.</p>
+        </div>
+
+        <div class="timeline">
+
+            <!-- MÊS 1 -->
+            <div class="month-card">
+                <h2 class="month-title editable"><i class="ph-fill ph-rocket-launch"></i> Quinzena 1 a Mês 1: Setup &
+                    Validação</h2>
+                <div class="month-goal editable">Objetivo: Ter a máquina no ar, conectada e receber os primeiros leads
+                    (grátis).</div>
+
+                <ul class="tasks">
+                    <li>
+                        <i class="ph-bold ph-check-circle"></i>
+                        <div class="editable">
+                            <span class="responsibility resp-tecnico">Especialista/Técnico</span>
+                            <strong>Ativar Captura (Mandatório):</strong> Criar conta no Formspree.io, pegar o link e
+                            colar no arquivo <code>index.html</code>. No campo logo abaixo (URL oculta), inserir o Link
+                            de Convite do Grupo do WhatsApp ("Alerta PREPOM"). Atualizar o código na Vercel via Git.
+                        </div>
+                    </li>
+                    <li>
+                        <i class="ph-bold ph-check-circle"></i>
+                        <div class="editable">
+                            <span class="responsibility resp-parceiro">Parceiro Digital</span>
+                            <strong>Setup da Fábrica IA:</strong> Abrir o NotebookLM da Google. Títular como "Doutrinas
+                            Bússola". Fazer upload em PDF do <em>PREPOM</em>, <em>NORMAM-101</em> e <em>NORMAM-102</em>.
+                        </div>
+                    </li>
+                    <li>
+                        <i class="ph-bold ph-check-circle"></i>
+                        <div class="editable">
+                            <span class="responsibility resp-parceiro">Parceiro Digital</span>
+                            <strong>Primeiros Roteiros & Redes Sociais:</strong> Usar o "Mega-Prompt de Roteiros" (no
+                            arquivo <code>prompts.md</code>) para que a IA crie 10 vídeos (Foco: Dor de perder prazos e
+                            Burocracia). Gravar, editar simples e iniciar postagens 1x por dia no Instagram e TikTok. A
+                            Call To Action do vídeo SEMPRE é "Clique no link da bio para ser alertado do PREPOM!".
+                        </div>
+                    </li>
+                </ul>
+                <div class="tip-box editable">
+                    <strong>Métrica de Sucesso (Fim do Mês 1):</strong> 30 a 50 pessoas reais dentro do Grupo do
+                    WhatsApp de Alertas. Nenhum dinheiro investido além do tempo.
+                </div>
+            </div>
+
+            <!-- MÊS 2 -->
+            <div class="month-card">
+                <h2 class="month-title editable"><i class="ph-fill ph-magnet"></i> Mês 2: Tração e O Tripwire Inicial
+                </h2>
+                <div class="month-goal editable">Objetivo: Tráfego Pago Base e a Primeira Oferta (Micro-monetização).
+                </div>
+
+                <ul class="tasks">
+                    <li>
+                        <i class="ph-bold ph-check-circle"></i>
+                        <div class="editable">
+                            <span class="responsibility resp-parceiro">Parceiro Digital</span>
+                            <strong>Ativar Meta Ads (Distribuição R$ 10 a 20 / dia):</strong> Pegar os 2 vídeos
+                            orgânicos (Reels/TikTok) do Mês 1 que mais tiveram visualizações e colocá-los como anúncio
+                            (Tráfego) apontando direto para a nossa Landing Page (Bússola Digital).
+                        </div>
+                    </li>
+                    <li>
+                        <i class="ph-bold ph-check-circle"></i>
+                        <div class="editable">
+                            <span class="responsibility resp-tecnico">Especialista/Técnico</span>
+                            <strong>A 1ª Atualização do Simulado:</strong> Usar o "Mega-Prompt de Questões JSON" no
+                            Gemini. Recortar questões novas de Matemática da DPC e pedir para a IA encapsular. Atualizar
+                            o arquivo <code>db/questoes.json</code> no GitHub e subir a novidade para os usuários com
+                            "Novas Questões Adicionadas!".
+                        </div>
+                    </li>
+                    <li>
+                        <i class="ph-bold ph-check-circle"></i>
+                        <div class="editable">
+                            <span class="responsibility resp-tecnico">Especialista/Técnico</span>
+                            <strong>Criação da Oferta Tripwire:</strong> Cadastrar na Kiwify/Hotmart o produto "Banco de
+                            Simulados Premium CFAQ". Preço isca: <strong>R$ 29,90/ano</strong>. Essa venda vai sustentar
+                            o tráfego do Parceiro. Modificar o botão do simulador HTML para que o "Próximo Teste" leve
+                            ao checkout (ou apenas avisar no Grupo VIP do WhatsApp).
+                        </div>
+                    </li>
+                </ul>
+                <div class="tip-box editable">
+                    <strong>Métrica de Sucesso (Fim do Mês 2):</strong> 100 a 300 pessoas no WhatsApp. As 5 a 10
+                    primeiras vendas do Acesso ao Simulado cobrindo os custos de anúncios.
+                </div>
+            </div>
+
+            <!-- MÊS 3 -->
+            <div class="month-card">
+                <h2 class="month-title editable"><i class="ph-fill ph-video-camera"></i> Mês 3 e 4: O "Core Product"
+                    (Curso Base)</h2>
+                <div class="month-goal editable">Objetivo: Construir o preparatório robusto em vídeo e ofertar para a
+                    base já aquecida.</div>
+
+                <ul class="tasks">
+                    <li>
+                        <i class="ph-bold ph-check-circle"></i>
+                        <div class="editable">
+                            <span class="responsibility resp-tecnico">Especialista/Técnico</span>
+                            <strong>Gravação em Lotes (Sábados/Domingos):</strong> Usar a expertise técnica para gravar
+                            aulas em vídeo (Quadro Branco ou PPT) focadas em: Edital Base (Como ler), Resolução das
+                            Provas de Português/Matemática e Táticas de Teste Físico de Permanência. Subir as aulas
+                            fechadas na área de membros da Hotmart.
+                        </div>
+                    </li>
+                    <li>
+                        <i class="ph-bold ph-check-circle"></i>
+                        <div class="editable">
+                            <span class="responsibility resp-parceiro">Parceiro Digital</span>
+                            <strong>O Evento de Lançamento (PREPOM):</strong> Escolher um dia chave onde historicamente
+                            editais saem ou a procura é alta, e fazer a campanha "Desmistificando o Edital". Fazer 1 ou
+                            2 Aulas ao Vivo (YouTube) no estilo aulão de especialista, convidando toda a tribo do Grupo
+                            do WhatsApp de Alertas.
+                        </div>
+                    </li>
+                    <li>
+                        <i class="ph-bold ph-check-circle"></i>
+                        <div class="editable">
+                            <span class="responsibility resp-ambos">Ambos</span>
+                            <strong>Abertura de Carrinho (R$ 297,00):</strong> No final do aulão do Parceiro e
+                            Especialista, abrir as vendas para o "Máquina de Aprovação CFAQ - Da Inscrição ao Primeiro
+                            Embarque". O curso dará como bônus vitalício o Simulado Inteligente que já está programado.
+                        </div>
+                    </li>
+                </ul>
+                <div class="tip-box editable">
+                    <strong>Métrica de Sucesso (Fim do Mês 4):</strong> Venda do produto Principal. Primeiras 20 a 50
+                    vendas gerando Caixa de lucro (R$ 5.000 a R$ 14.000). A máquina finalmente pagando os seus
+                    dividendos diretos.
+                </div>
+            </div>
+
+            <!-- MÊS 5 -->
+            <div class="month-card">
+                <h2 class="month-title editable"><i class="ph-fill ph-infinity"></i> Mês 5 e 6: Consolidação & "SaaS"
+                    Misto</h2>
+                <div class="month-goal editable">Objetivo: Colocar o projeto no modo piloto-automático lucrativo e
+                    ativar receita recorrente.</div>
+
+                <ul class="tasks">
+                    <li>
+                        <i class="ph-bold ph-check-circle"></i>
+                        <div class="editable">
+                            <span class="responsibility resp-parceiro">Parceiro Digital</span>
+                            <strong>Funil Perpétuo de Tráfego:</strong> Todo o caixa extra gerado das vendas do Curso
+                            (Mês 4) deve ser reinjetado no Google Ads (quando alguém pesquisa "cursinho preparatório
+                            marinha mercante") e Meta Ads. A intenção é que todo dia caiam vendas automáticas sem vocês
+                            precisarem estar online.
+                        </div>
+                    </li>
+                    <li>
+                        <i class="ph-bold ph-check-circle"></i>
+                        <div class="editable">
+                            <span class="responsibility resp-tecnico">Especialista/Técnico</span>
+                            <strong>Módulo "Radar PREPOM Pro":</strong> O nível mais sofisticado do projeto. Em vez do
+                            Parceiro ficar buscando editais na mão, criaremos um "Bot de Telegram/WhatsApp" pago via
+                            assinatura (Saas) (Ex: R$ 19,90/mês). Os alunos do curso e externos pagam isso para o robô
+                            mandar a lista de documentos perfeita já lida por IA assim que uma Capitania no Brasil
+                            postar no site. (A ser estruturado conosco quando o tráfego validar a dor da urgência).
+                        </div>
+                    </li>
+                </ul>
+                <div class="tip-box editable">
+                    <strong>Métrica de Sucesso (Fim do Mês 6):</strong> Ecossistema sustentável rodando: Orgânico e Ads
+                    gerando leads grátis via site -> Whatsapp avisando eles gratuitamente de Editais -> Convertendo os
+                    engajados para o Simulado de 39,00 -> Convertendo os sérios para o Curso Completo de 297,00.
+                </div>
+            </div>
+
+        </div>
+
+        <a href="index.html" class="action-button">Acessar a Bússola Digital Local (Voltar ao Index)</a>
+    </div>
+
+    <!-- Script de Edição Simples no Próprio HTML -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const btnEdit = document.getElementById('toggleEdit');
+            const btnSave = document.getElementById('saveFile');
+            const editables = document.querySelectorAll('.editable');
+            let isEditing = false;
+
+            btnEdit.addEventListener('click', () => {
+                isEditing = !isEditing;
+
+                if (isEditing) {
+                    editables.forEach(el => el.setAttribute('contenteditable', 'true'));
+                    btnEdit.innerHTML = '<i class="ph-bold ph-x"></i> Parar Edição';
+                    btnEdit.style.background = 'rgba(239, 71, 111, 0.4)';
+                    btnSave.style.display = 'block';
+                } else {
+                    editables.forEach(el => el.removeAttribute('contenteditable'));
+                    btnEdit.innerHTML = '<i class="ph-bold ph-pencil-simple"></i> Ativar Edição';
+                    btnEdit.style.background = 'transparent';
+                    btnSave.style.display = 'none';
+                }
+            });
+
+            // Simulando um save local simples. (Num ambiente estático local, o navegador não sobrescreve o arquivo no OS por segurança diretamente via JS, 
+            // mas serve para o usuário copiar o HTML ou a máquina ler via um input).
+            btnSave.addEventListener('click', () => {
+                const conf = confirm("Suas alterações estão salvas neste sessão. Para salvar no disco, como é um arquivo local, salve usando CTRL+S no seu teclado (Ou Cmd+S no Mac).");
+            });
+        });
+    </script>
+</body>
+
+</html>
