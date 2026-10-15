@@ -12,7 +12,7 @@ import { NightLightsSimulator } from './components/NightLightsSimulator';
 import { SlideViewerScreen } from './components/SlideViewerScreen';
 import { MobileBottomNav } from './components/MobileBottomNav';
 import { ActiveTab, ExamResult, OfficialCategory, StudyFilter } from './types';
-import { Compass, AlertCircle, ShieldCheck, Ship, Timer, ArrowRight, Zap, CheckCircle2 } from 'lucide-react';
+import { Compass, AlertCircle, ShieldCheck, Ship, Timer, ArrowRight, Zap, CheckCircle2, Anchor } from 'lucide-react';
 
 export const App: React.FC = () => {
   const {
@@ -32,6 +32,7 @@ export const App: React.FC = () => {
     wrongQuestionIds,
     startOfficialArraisExam,
     startOfficialMotonautaExam,
+    startCadernoEspecialExam,
     startSprintChallenge,
     startStudyMode,
     startErrorNotebookMode,
@@ -82,6 +83,7 @@ export const App: React.FC = () => {
   const isExamInProgress =
     (examMode === 'MODO_OFICIAL_ARRAIS' ||
       examMode === 'MODO_OFICIAL_MOTONAUTA' ||
+      examMode === 'MODO_CADERNO_ESPECIAL' ||
       examMode === 'MODO_SPRINT_DESAFIO' ||
       examMode === 'official') &&
     !viewingResult &&
@@ -97,6 +99,12 @@ export const App: React.FC = () => {
   const handleStartMotonautaExam = () => {
     setViewingResult(null);
     startOfficialMotonautaExam();
+    setActiveTab('exam');
+  };
+
+  const handleStartCadernoEspecialExam = () => {
+    setViewingResult(null);
+    startCadernoEspecialExam();
     setActiveTab('exam');
   };
 
@@ -165,6 +173,7 @@ export const App: React.FC = () => {
               <HomeScreen
                 onStartOfficialExam={handleStartOfficialExam}
                 onStartMotonautaExam={handleStartMotonautaExam}
+                onStartCadernoEspecialExam={handleStartCadernoEspecialExam}
                 onStartSprintExam={handleStartSprintExam}
                 onGoToLights={() => setActiveTab('lights')}
                 onGoToSlides={() => setActiveTab('slides')}
@@ -229,7 +238,7 @@ export const App: React.FC = () => {
                     </p>
                   </div>
 
-                  <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
                     {/* Modo 1: Arrais-Amador */}
                     <div className="bg-navy-900 border-2 border-gold-500/50 hover:border-gold-500 p-6 rounded-3xl shadow-xl flex flex-col justify-between space-y-5 transition-all group">
                       <div className="space-y-3">
@@ -255,7 +264,7 @@ export const App: React.FC = () => {
                           </li>
                           <li className="flex items-center gap-2">
                             <CheckCircle2 className="w-4 h-4 text-emerald-400 flex-shrink-0" />
-                            <span>Balanço: 13 RIPEAM, 9 Balizamento, 7 Legislação, 6 Salvatagem, 5 Manobra</span>
+                            <span>Balanço: 13 RIPEAM, 9 Baliz., 7 Legis., 6 Salvat., 5 Manobra</span>
                           </li>
                           <li className="flex items-center gap-2">
                             <CheckCircle2 className="w-4 h-4 text-emerald-400 flex-shrink-0" />
@@ -269,6 +278,49 @@ export const App: React.FC = () => {
                         className="w-full py-3.5 bg-gradient-to-r from-gold-500 to-gold-400 hover:from-gold-400 hover:to-gold-300 text-navy-950 font-black text-xs uppercase tracking-wider rounded-xl shadow-lg active:scale-95 transition-all flex items-center justify-center gap-2"
                       >
                         <span>Iniciar Simulado Arrais</span>
+                        <ArrowRight className="w-4 h-4" />
+                      </button>
+                    </div>
+
+                    {/* Modo 2: Caderno Especial Fluvial */}
+                    <div className="bg-navy-900 border border-emerald-500/40 hover:border-emerald-500/80 p-6 rounded-3xl shadow-xl flex flex-col justify-between space-y-5 transition-all group">
+                      <div className="space-y-3">
+                        <div className="w-12 h-12 rounded-2xl bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 flex items-center justify-center">
+                          <Anchor className="w-6 h-6" />
+                        </div>
+                        <div>
+                          <span className="text-[10px] font-extrabold uppercase tracking-wider text-emerald-400">
+                            Banca Fluvial (Tabatinga)
+                          </span>
+                          <h2 className="text-xl font-black text-slate-100 mt-0.5">
+                            Caderno Fluvial
+                          </h2>
+                        </div>
+                        <ul className="text-xs text-slate-300 space-y-2 pt-1">
+                          <li className="flex items-center gap-2">
+                            <CheckCircle2 className="w-4 h-4 text-emerald-400 flex-shrink-0" />
+                            <span><strong>40 questões</strong> canônicas fluviais</span>
+                          </li>
+                          <li className="flex items-center gap-2">
+                            <CheckCircle2 className="w-4 h-4 text-emerald-400 flex-shrink-0" />
+                            <span><strong>120 minutos</strong> cronometrados</span>
+                          </li>
+                          <li className="flex items-center gap-2">
+                            <CheckCircle2 className="w-4 h-4 text-emerald-400 flex-shrink-0" />
+                            <span>Foco em rios, hidrovias, amarração e socorros</span>
+                          </li>
+                          <li className="flex items-center gap-2">
+                            <CheckCircle2 className="w-4 h-4 text-emerald-400 flex-shrink-0" />
+                            <span>Aprovação com <strong>≥ 50% (20 acertos)</strong></span>
+                          </li>
+                        </ul>
+                      </div>
+
+                      <button
+                        onClick={handleStartCadernoEspecialExam}
+                        className="w-full py-3.5 bg-gradient-to-r from-emerald-500 to-emerald-400 hover:from-emerald-400 hover:to-emerald-300 text-navy-950 font-black text-xs uppercase tracking-wider rounded-xl shadow-lg active:scale-95 transition-all flex items-center justify-center gap-2"
+                      >
+                        <span>Iniciar Caderno Fluvial</span>
                         <ArrowRight className="w-4 h-4" />
                       </button>
                     </div>

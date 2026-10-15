@@ -248,6 +248,41 @@ export function useExamEngine() {
   }, [allQuestions]);
 
   /**
+   * 4. MODO_CADERNO_ESPECIAL:
+   * 40 questões canônicas das Capitanias Fluviais (Tabatinga / Solimões)
+   * 120 minutos, aprovação com 50% (20 acertos)
+   */
+  const startCadernoEspecialExam = useCallback(() => {
+    if (allQuestions.length === 0) return;
+
+    const presetQuestions = allQuestions
+      .filter((q) => q.examPreset === 'caderno_fluvial_1')
+      .sort((a, b) => (a.examOrder || 0) - (b.examOrder || 0));
+
+    let finalExamQuestions = [...presetQuestions];
+    if (finalExamQuestions.length < 40) {
+      const remaining = allQuestions.filter((q) => !finalExamQuestions.some((s) => s.id === q.id));
+      finalExamQuestions.push(...shuffle(remaining).slice(0, 40 - finalExamQuestions.length));
+    }
+
+    setCurrentQuestions(finalExamQuestions);
+    setAnswers(
+      finalExamQuestions.map((q) => ({
+        questionId: q.id,
+        selectedIndex: null,
+        isFlaggedForReview: false,
+      }))
+    );
+    setCurrentQuestionIndex(0);
+    setExamMode('MODO_CADERNO_ESPECIAL');
+    setExamTitle('Caderno Especial de Fixação — Capitanias Fluviais (40 Q.)');
+    setInitialDuration(EXAM_DURATIONS.ARRAIS);
+    setTimeRemaining(EXAM_DURATIONS.ARRAIS);
+    setIsTimerRunning(true);
+    setLastResult(null);
+  }, [allQuestions]);
+
+  /**
    * 4. MODO_ESTUDO_IMEDIATO (Treino Direcionado por Matéria e Filtros)
    * Filtros: 'ALL' (Todas), 'UNANSWERED' (Não respondidas), 'ERRORS' (Caderno de erros)
    */
@@ -489,6 +524,7 @@ export function useExamEngine() {
     startOfficialExam: startOfficialArraisExam, // alias retrocompatível
     startOfficialArraisExam,
     startOfficialMotonautaExam,
+    startCadernoEspecialExam,
     startSprintChallenge,
     startStudyMode,
     startErrorNotebookMode,

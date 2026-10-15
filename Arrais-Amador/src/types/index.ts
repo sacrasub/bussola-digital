@@ -9,6 +9,7 @@ export type OfficialCategory =
 export type ExamMode =
   | 'MODO_OFICIAL_ARRAIS'
   | 'MODO_OFICIAL_MOTONAUTA'
+  | 'MODO_CADERNO_ESPECIAL'
   | 'MODO_ESTUDO_IMEDIATO'
   | 'MODO_SPRINT_DESAFIO'
   | 'errors'
@@ -47,6 +48,8 @@ export interface Question {
   normReference: string;
   reference?: string;
   image?: IllustrationType | null;
+  examPreset?: string;
+  examOrder?: number;
 }
 
 export interface ExamAnswer {

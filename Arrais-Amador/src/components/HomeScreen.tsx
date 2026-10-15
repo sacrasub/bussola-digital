@@ -5,6 +5,7 @@ interface Props {
   onStartOfficialExam: () => void;
   onStartMotonautaExam: () => void;
   onStartSprintExam: () => void;
+  onStartCadernoEspecialExam?: () => void;
   onGoToLights: () => void;
   onGoToSlides: () => void;
   onGoToConcepts: () => void;
@@ -20,6 +21,7 @@ export const HomeScreen: React.FC<Props> = ({
   onStartOfficialExam,
   onStartMotonautaExam,
   onStartSprintExam,
+  onStartCadernoEspecialExam,
   onGoToLights,
   onGoToSlides,
   onGoToConcepts,
@@ -297,17 +299,43 @@ export const HomeScreen: React.FC<Props> = ({
             </span>
           </div>
 
-          {/* Card 8: Caderno de Erros */}
+          {/* Card 8: Caderno Especial Fluvial */}
+          <div
+            onClick={onStartCadernoEspecialExam || onStartOfficialExam}
+            className="bg-navy-900/90 hover:bg-navy-800/90 border border-navy-700/80 hover:border-emerald-500/50 p-6 rounded-2xl transition-all cursor-pointer group shadow-lg flex flex-col justify-between space-y-4 active:scale-98"
+          >
+            <div className="space-y-3">
+              <div className="w-12 h-12 rounded-xl bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 flex items-center justify-center group-hover:scale-110 transition-transform">
+                <Anchor className="w-6 h-6" />
+              </div>
+              <div className="flex items-center justify-between">
+                <h3 className="font-extrabold text-slate-100 text-base group-hover:text-emerald-400 transition-colors">
+                  8. Caderno Especial Fluvial
+                </h3>
+                <span className="text-[10px] uppercase font-bold text-emerald-400 bg-emerald-500/20 px-2 py-0.5 rounded-full border border-emerald-500/30">
+                  40 Q.
+                </span>
+              </div>
+              <p className="text-xs text-slate-400 leading-relaxed">
+                40 questões canônicas de navegação interior e rios aplicadas em exames da Capitania Fluvial. 120 minutos e aprovação com ≥ 50%.
+              </p>
+            </div>
+            <span className="text-xs font-bold text-emerald-400 flex items-center gap-1 group-hover:translate-x-1 transition-transform">
+              Iniciar Caderno Fluvial <ArrowRight className="w-3.5 h-3.5" />
+            </span>
+          </div>
+
+          {/* Card 9: Caderno de Erros */}
           <div
             onClick={errorCount > 0 ? onStartErrorsMode : onStartOfficialExam}
-            className="bg-navy-900/90 hover:bg-navy-800/90 border border-navy-700/80 hover:border-rose-500/50 p-6 rounded-2xl transition-all cursor-pointer group shadow-lg flex flex-col justify-between space-y-4 active:scale-98 md:col-span-2"
+            className="bg-navy-900/90 hover:bg-navy-800/90 border border-navy-700/80 hover:border-rose-500/50 p-6 rounded-2xl transition-all cursor-pointer group shadow-lg flex flex-col justify-between space-y-4 active:scale-98"
           >
             <div className="space-y-3">
               <div className="w-12 h-12 rounded-xl bg-rose-500/10 border border-rose-500/30 text-rose-400 flex items-center justify-center group-hover:scale-110 transition-transform">
                 <AlertTriangle className="w-6 h-6" />
               </div>
               <h3 className="font-extrabold text-slate-100 text-base group-hover:text-rose-400 transition-colors">
-                Caderno de Erros Personalizado
+                9. Caderno de Erros
               </h3>
               <p className="text-xs text-slate-400 leading-relaxed">
                 {errorCount > 0
