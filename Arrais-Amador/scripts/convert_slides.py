@@ -40,12 +40,12 @@ LESSONS = [
     {
         "id": "aula-4",
         "day": 4,
-        "title": "Dia 4 — Primeiros Socorros, Salvatagem e Incêndio",
-        "subtitle": "Equipamentos de Salvatagem, Classes de Incêndio, Homem ao Mar e Emergências",
+        "title": "Dia 4 — Sobrevivência e Tática de Prova",
+        "subtitle": "Combate a Incêndio, Primeiros Socorros, Salvatagem, Homem ao Mar e Pegadinhas",
         "category": "Primeiros Socorros, Salvatagem e Incêndio",
-        "instructor": "Instrutor 2",
-        "pdfPattern": "Dia 4",
-        "isUpcoming": True
+        "instructor": "Instrutores 1 e 2",
+        "pdfPattern": "dia 4 - UE4 - Arrais_Amador_Briefing_Tático.pdf",
+        "isUpcoming": False
     }
 ]
 
@@ -93,13 +93,17 @@ def main():
 
         pdf_path = os.path.join(SOURCE_DIR, pdf_filename)
         if not os.path.exists(pdf_path):
-            # Try fuzzy match in source dir
-            matches = [f for f in available_files if f.lower().startswith(lesson["id"].replace("-", "")) or (f.endswith(".pdf") and str(lesson["day"]) in f)]
-            if matches:
-                pdf_path = os.path.join(SOURCE_DIR, matches[0])
+            local_candidate = os.path.join(BASE_DIR, pdf_filename)
+            if os.path.exists(local_candidate):
+                pdf_path = local_candidate
             else:
-                print(f"Erro: Arquivo PDF não encontrado para {lesson_id}: {pdf_filename}")
-                continue
+                # Try fuzzy match in source dir
+                matches = [f for f in available_files if f.lower().startswith(lesson["id"].replace("-", "")) or (f.endswith(".pdf") and str(lesson["day"]) in f)]
+                if matches:
+                    pdf_path = os.path.join(SOURCE_DIR, matches[0])
+                else:
+                    print(f"Erro: Arquivo PDF não encontrado para {lesson_id}: {pdf_filename}")
+                    continue
 
         print(f"Processando {lesson_id}: {os.path.basename(pdf_path)}...")
         doc = pdfium.PdfDocument(pdf_path)

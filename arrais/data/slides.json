@@ -285,13 +285,98 @@
   {
     "id": "aula-4",
     "day": 4,
-    "title": "Dia 4 — Primeiros Socorros, Salvatagem e Incêndio",
-    "subtitle": "Equipamentos de Salvatagem, Classes de Incêndio, Homem ao Mar e Emergências",
+    "title": "Dia 4 — Sobrevivência e Tática de Prova",
+    "subtitle": "Combate a Incêndio, Primeiros Socorros, Salvatagem, Homem ao Mar e Pegadinhas",
     "category": "Primeiros Socorros, Salvatagem e Incêndio",
-    "instructor": "Instrutor 2",
-    "totalSlides": 0,
+    "instructor": "Instrutores 1 e 2",
+    "totalSlides": 21,
     "folder": "slides/aula-4",
-    "isUpcoming": true,
-    "slides": []
+    "isUpcoming": false,
+    "slides": [
+      {
+        "number": 1,
+        "image": "./slides/aula-4/slide-1.webp"
+      },
+      {
+        "number": 2,
+        "image": "./slides/aula-4/slide-2.webp"
+      },
+      {
+        "number": 3,
+        "image": "./slides/aula-4/slide-3.webp"
+      },
+      {
+        "number": 4,
+        "image": "./slides/aula-4/slide-4.webp"
+      },
+      {
+        "number": 5,
+        "image": "./slides/aula-4/slide-5.webp"
+      },
+      {
+        "number": 6,
+        "image": "./slides/aula-4/slide-6.webp"
+      },
+      {
+        "number": 7,
+        "image": "./slides/aula-4/slide-7.webp"
+      },
+      {
+        "number": 8,
+        "image": "./slides/aula-4/slide-8.webp"
+      },
+      {
+        "number": 9,
+        "image": "./slides/aula-4/slide-9.webp"
+      },
+      {
+        "number": 10,
+        "image": "./slides/aula-4/slide-10.webp"
+      },
+      {
+        "number": 11,
+        "image": "./slides/aula-4/slide-11.webp"
+      },
+      {
+        "number": 12,
+        "image": "./slides/aula-4/slide-12.webp"
+      },
+      {
+        "number": 13,
+        "image": "./slides/aula-4/slide-13.webp"
+      },
+      {
+        "number": 14,
+        "image": "./slides/aula-4/slide-14.webp"
+      },
+      {
+        "number": 15,
+        "image": "./slides/aula-4/slide-15.webp"
+      },
+      {
+        "number": 16,
+        "image": "./slides/aula-4/slide-16.webp"
+      },
+      {
+        "number": 17,
+        "image": "./slides/aula-4/slide-17.webp"
+      },
+      {
+        "number": 18,
+        "image": "./slides/aula-4/slide-18.webp"
+      },
+      {
+        "number": 19,
+        "image": "./slides/aula-4/slide-19.webp"
+      },
+      {
+        "number": 20,
+        "image": "./slides/aula-4/slide-20.webp"
+      },
+      {
+        "number": 21,
+        "image": "./slides/aula-4/slide-21.webp"
+      }
+    ]
   }
 ]
