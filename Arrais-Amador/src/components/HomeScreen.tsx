@@ -341,9 +341,10 @@ export const HomeScreen: React.FC<Props> = ({
               1. Balizamento IALA Região B (Brasil)
             </span>
             <ul className="space-y-1.5 text-slate-300">
-              <li>• <strong>Entrada de Canal:</strong> Verde a Boreste (direita) e Encarnado a Bombordo (esquerda).</li>
+              <li>• <strong>Entrada de Canal:</strong> Encarnado a Boreste (direita, ímpar) e Verde a Bombordo (esquerda, par).</li>
+              <li>• <strong>Saída de Canal:</strong> Inverte (as luzes do barco casam com as boias: Verde a BE e Encarnada a BB).</li>
               <li>• <strong>Perigo Isolado:</strong> 2 esferas pretas no tope, luz branca Fl(2).</li>
-              <li>• <strong>Águas Seguras:</strong> Faixas verticais brancas e vermelhas, 1 esfera encarnada.</li>
+              <li>• <strong>Águas Seguras:</strong> Faixas verticais brancas e encarnadas, 1 esfera encarnada.</li>
             </ul>
           </div>
 

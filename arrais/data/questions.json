@@ -6024,14 +6024,14 @@
     "subtopic": "Sentido Convencional do Balizamento",
     "question": "No Sistema de Balizamento IALA Região B (adotado no Brasil), qual é a regra do \"Sentido Convencional do Balizamento\" ao entrar em um porto ou subir um rio?",
     "options": [
-      "Quem entra no porto ou sobe o rio deixa os sinais de BORESTE (VERDES) por seu boreste e BOMBORDO (ENCARNADOS) por seu bombordo",
-      "Quem sobe o rio deixa os sinais vermelhos a boreste",
-      "Quem desce o rio deixa os verdes a boreste",
+      "Quem entra no porto ou sobe o rio deixa os sinais de BORESTE (ENCARNADOS) por seu boreste e BOMBORDO (VERDES) por seu bombordo",
+      "Quem entra no porto deixa os sinais verdes por seu boreste e encarnados por seu bombordo",
+      "Quem sobe o rio deixa os sinais amarelos a boreste",
       "O sentido do balizamento independe da foz ou nascente"
     ],
     "correctIndex": 0,
     "answer": 0,
-    "explanation": "Regra de ouro IALA Região B: Entrando do mar para o porto ou subindo rio (da foz para a nascente): BORESTE = VERDE (fica a boreste) e BOMBORDO = ENCARNADO (fica a bombordo).",
+    "explanation": "Regra fundamental do Sistema IALA Região B (adotado no Brasil): Entrando do mar para o porto ou subindo o rio (da foz para a nascente): BORESTE = ENCARNADO (fica a boreste da embarcação) e BOMBORDO = VERDE (fica a bombordo da embarcação).",
     "normReference": "Sistema IALA B / NORMAM-211 Anexo 5-H",
     "reference": "Sistema IALA B / NORMAM-211 Anexo 5-H",
     "image": "buoy_starboard"
@@ -6040,16 +6040,16 @@
     "id": 336,
     "topic": "Balizamento",
     "subtopic": "Descida de Rio / Saída de Porto",
-    "question": "Ao SAIR de um porto brasileiro em direção ao mar aberto (descendo o canal), por qual bordo o condutor deve deixar uma boia ENCARNADA (vermelha cilíndrica)?",
+    "question": "Ao SAIR de um porto brasileiro em direção ao mar aberto (descendo o canal), por qual bordo o condutor deve deixar uma boia ENCARNADA (cônica de boreste)?",
     "options": [
-      "Deve deixá-la por seu BORESTE (estibordo/lado direito da lancha)",
-      "Deve deixá-la por seu bombordo",
+      "Deve deixá-la por seu BOMBORDO (lado esquerdo da lancha)",
+      "Deve deixá-la por seu boreste",
       "Deve passar por cima da boia",
       "Deve ignorá-la porque sinais só valem na subida"
     ],
     "correctIndex": 0,
     "answer": 0,
-    "explanation": "Na descida do rio ou saída de porto, as regras se invertem em relação à embarcação: a boia encarnada (que fica no bordo esquerdo de quem sobe) ficará à direita (boreste) de quem desce em direção ao mar.",
+    "explanation": "Na saída do porto ou descida do rio (em direção ao mar), a posição relativa inverte: a boia encarnada do canal fica pelo BOMBORDO da embarcação (as cores casam: luz verde do barco com boia verde a BE, luz encarnada do barco com boia encarnada a BB).",
     "normReference": "Sistema IALA B / NORMAM-211",
     "reference": "Sistema IALA B / NORMAM-211",
     "image": "buoy_port"
@@ -6060,14 +6060,14 @@
     "subtopic": "Sinal Lateral de Boreste (IALA B)",
     "question": "Quais são as características completas (cor, formato de boia, marca de tope e cor da luz) do sinal lateral de BORESTE no IALA B?",
     "options": [
-      "Cor verde, formato cônico/pilar/charuto, marca de tope: um cone verde com vértice para cima, luz verde",
-      "Cor encarnada, formato cilíndrico, marca de tope cilíndrica, luz encarnada",
+      "Cor encarnada (vermelha), formato cônico/pilar/charuto, marca de tope: um cone encarnado com vértice para cima, luz encarnada",
+      "Cor verde, formato cilíndrico, marca de tope cilíndrica, luz verde",
       "Cor amarela, formato esférico, marca em X, luz amarela",
       "Preto e vermelho, duas esferas pretas, luz branca"
     ],
     "correctIndex": 0,
     "answer": 0,
-    "explanation": "Sinal de Boreste (IALA B): Verde, corpo cônico ou pilar, tope em cone verde ponta para cima, luz verde com qualquer ritmo exceto Fl(2+1).",
+    "explanation": "Sinal lateral de Boreste (IALA B - Brasil): Cor encarnada, formato cônico/pilar/charuto, marca de tope cônico encarnado com ponta para cima, luz encarnada (qualquer ritmo exceto Fl(2+1)) e numeração ímpar crescente.",
     "normReference": "Sistema IALA B / NORMAM-211",
     "reference": "Sistema IALA B / NORMAM-211",
     "image": "buoy_starboard"
@@ -6078,14 +6078,14 @@
     "subtopic": "Sinal Lateral de Bombordo (IALA B)",
     "question": "Quais são as características (cor, formato e marca de tope) do sinal lateral de BOMBORDO no IALA B?",
     "options": [
-      "Cor encarnada (vermelha), formato cilíndrico (can), marca de tope: um cilindro encarnado, luz encarnada",
-      "Cor verde, formato cônico, marca em cone verde",
+      "Cor verde, formato cilíndrico (can), marca de tope: um cilindro verde, luz verde",
+      "Cor encarnada, formato cônico, marca em cone encarnado",
       "Cor branca e encarnada em faixas verticais, tope esférico",
       "Cor preta e amarela, dois cones pretos"
     ],
     "correctIndex": 0,
     "answer": 0,
-    "explanation": "Sinal de Bombordo (IALA B): Encarnado, formato cilíndrico (ou charuto/pilar), tope cilíndrico encarnado e luz encarnada.",
+    "explanation": "Sinal lateral de Bombordo (IALA B - Brasil): Cor verde, formato cilíndrico/pilar/charuto, marca de tope cilíndrico verde, luz verde (qualquer ritmo exceto Fl(2+1)) e numeração par crescente.",
     "normReference": "Sistema IALA B / NORMAM-211",
     "reference": "Sistema IALA B / NORMAM-211",
     "image": "buoy_port"
@@ -6094,16 +6094,16 @@
     "id": 339,
     "topic": "Balizamento",
     "subtopic": "Canal Preferencial a Boreste",
-    "question": "Ao subir um canal, você avista uma boia com cor VERMELHA tendo uma FAIXA HORIZONTAL VERDE no meio. Qual é o significado desta boia?",
+    "question": "Ao subir um canal, você avista uma boia com cor ENCARNADA (vermelha) tendo uma FAIXA HORIZONTAL VERDE no meio. Qual é o significado desta boia?",
     "options": [
-      "Canal Preferencial a BORESTE (o canal principal segue pelo lado de boreste da boia; bombordo da boia é o canal secundário)",
-      "Canal Preferencial a Bombordo",
+      "Canal Preferencial a BOMBORDO (o canal principal segue pelo lado de bombordo da boia)",
+      "Canal Preferencial a Boreste",
       "Perigo isolado intransponível",
       "Águas seguras para banho"
     ],
     "correctIndex": 0,
     "answer": 0,
-    "explanation": "Boia encarnada com faixa verde central indica Canal Preferencial a Boreste (o canal preferencial fica à direita da boia para quem sobe). A cor do tope e do corpo principal dita o bordo do canal principal.",
+    "explanation": "Conforme a apostila oficial (pág. 30): boia encarnada com faixa horizontal verde no centro indica Canal Preferencial a BOMBORDO. A cor do corpo e do tope define o bordo do canal principal.",
     "normReference": "Sistema IALA B / NORMAM-211",
     "reference": "Sistema IALA B / NORMAM-211",
     "image": "buoy_preferred_channel"
@@ -6114,14 +6114,14 @@
     "subtopic": "Canal Preferencial a Bombordo",
     "question": "Uma boia VERDE com uma FAIXA HORIZONTAL ENCARNADA (vermelha) no centro indica:",
     "options": [
-      "Canal Preferencial a BOMBORDO (o canal principal segue deixando a boia por seu boreste)",
-      "Canal Preferencial a Boreste",
+      "Canal Preferencial a BORESTE (o canal principal segue pelo lado de boreste da boia)",
+      "Canal Preferencial a Bombordo",
       "Submarino submerso",
       "Área de fundeio de lanchas"
     ],
     "correctIndex": 0,
     "answer": 0,
-    "explanation": "Boia verde com faixa encarnada indica que o canal principal segue pelo lado de bombordo da boia (Canal Preferencial a Bombordo). Seu ritmo luminoso é Fl(2+1)G.",
+    "explanation": "Conforme a apostila oficial (pág. 30): boia verde com faixa horizontal encarnada no centro indica Canal Preferencial a BORESTE. Luz verde composta Fl(2+1).",
     "normReference": "Sistema IALA B / NORMAM-211",
     "reference": "Sistema IALA B / NORMAM-211",
     "image": "buoy_preferred_channel"
@@ -6490,16 +6490,16 @@
     "id": 361,
     "topic": "Balizamento",
     "subtopic": "Cor do Tope e da Boia de Boreste",
-    "question": "Se a marca de tope de uma boia de boreste se desprender por acidente, como o marinheiro a identifica durante o dia?",
+    "question": "Se a marca de tope de uma boia de boreste se desprender por acidente, como o marinheiro a identifica durante o dia no Brasil (IALA B)?",
     "options": [
-      "Pela cor verde do corpo e formato cônico da boia ou de sua superestrutura",
+      "Pela cor encarnada (vermelha) do corpo e formato cônico da boia ou de sua superestrutura",
+      "Pela cor verde e formato cilíndrico",
       "Pelo som que a boia emite ao bater na água",
-      "Apenas esperando o anoitecer para ver a cor da lâmpada",
       "Pelo tamanho das correntes de fundeio"
     ],
     "correctIndex": 0,
     "answer": 0,
-    "explanation": "O sistema IALA prevê redundância: a cor verde e o corpo cônico garantem a identificação diurna mesmo na ausência eventual da marca de tope.",
+    "explanation": "No Sistema IALA Região B (Brasil), a boia de boreste possui corpo de cor encarnada e formato cônico ou de pilar.",
     "normReference": "Sistema IALA B",
     "reference": "Sistema IALA B",
     "image": "buoy_starboard"
@@ -6517,7 +6517,7 @@
     ],
     "correctIndex": 0,
     "answer": 0,
-    "explanation": "O cilindro (\"can\") vermelho é a marca de tope padronizada exclusivamente para o sinal lateral de bombordo.",
+    "explanation": "O cilindro verde é a marca de tope padronizada exclusivamente para o sinal lateral de bombordo no IALA B.",
     "normReference": "Sistema IALA B",
     "reference": "Sistema IALA B",
     "image": "buoy_port"

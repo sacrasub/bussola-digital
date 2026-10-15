@@ -111,7 +111,7 @@
     "title": "Sinal Lateral de Boreste",
     "subtitle": "Entrada de Canal (Brasil)",
     "front": "No Brasil (Região B), qual a cor, formato do tope e luz da boia de BORESTE para quem entra no porto?",
-    "back": "• Cor: VERDE\n• Formato: Cônico ou pilar\n• Tope: Cone verde apontado para CIMA\n• Luz: Verde (qualquer ritmo exceto Fl(2+1))\n• Regra de ouro: BORESTE = VERDE (deixar à direita ao entrar)",
+    "back": "• Cor: ENCARNADA (Vermelha)\n• Formato: Cônico, pilar ou charuto\n• Tope: Cone encarnado apontado para CIMA\n• Luz: Encarnada (qualquer ritmo exceto Fl(2+1))\n• Numeração: ÍMPAR (1, 3, 5...)\n• Regra de ouro: Ao entrar no canal/porto: BORESTE = ENCARNADO (fica à direita)",
     "normReference": "IALA Região B / NORMAM-211",
     "icon": "Anchor",
     "imageType": "buoy_starboard"
@@ -122,7 +122,7 @@
     "title": "Sinal Lateral de Bombordo",
     "subtitle": "Entrada de Canal (Brasil)",
     "front": "No Brasil (Região B), qual a cor, formato do tope e luz da boia de BOMBORDO para quem entra no porto?",
-    "back": "• Cor: ENCARNADA (Vermelha)\n• Formato: Cilíndrico ou cego\n• Tope: Cilindro encarnado\n• Luz: Encarnada (qualquer ritmo exceto Fl(2+1))\n• Regra de ouro: BOMBORDO = ENCARNADO (deixar à esquerda ao entrar)",
+    "back": "• Cor: VERDE\n• Formato: Cilíndrico, pilar ou charuto\n• Tope: Cilindro verde\n• Luz: Verde (qualquer ritmo exceto Fl(2+1))\n• Numeração: PAR (2, 4, 6...)\n• Regra de ouro: Ao entrar no canal/porto: BOMBORDO = VERDE (fica à esquerda)",
     "normReference": "IALA Região B / NORMAM-211",
     "icon": "Anchor",
     "imageType": "buoy_port"
