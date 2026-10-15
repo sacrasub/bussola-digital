@@ -6917,5 +6917,1401 @@
     "normReference": "NORMAM-211 Cap. 4 e NORMAM-212",
     "reference": "NORMAM-211 Cap. 4 e NORMAM-212",
     "image": "fire_triangle"
+  },
+  {
+    "id": 385,
+    "topic": "Legislação Náutica",
+    "subtopic": "Infrações e Multas",
+    "question": "De acordo com a RLESTA (Decreto nº 2.596/98), a infração por conduzir embarcação sem habilitação está enquadrada em qual grupo de multa?",
+    "options": [
+      "Grupo A (R$ 40,00 a R$ 200,00)",
+      "Grupo C (R$ 40,00 a R$ 800,00)",
+      "Grupo E (R$ 40,00 a R$ 2.200,00)",
+      "Grupo G (R$ 80,00 a R$ 3.200,00)"
+    ],
+    "correctIndex": 2,
+    "explanation": "Conduzir embarcação sem habilitação acarreta pena de MULTA do Grupo E (de R$ 40,00 a R$ 2.200,00), além da apreensão da embarcação.",
+    "normReference": "RLESTA Art. 18 / Apostila Unidade 1 pág. 4 e 8",
+    "image": null,
+    "answer": 2,
+    "reference": "RLESTA Art. 18 / Apostila Unidade 1 pág. 4 e 8"
+  },
+  {
+    "id": 386,
+    "topic": "Legislação Náutica",
+    "subtopic": "Infrações e Multas",
+    "question": "Qual é a infração passível da mais alta pena de multa prevista na RLESTA (Grupo G, de R$ 80,00 a R$ 3.200,00)?",
+    "options": [
+      "Navegar com habilitação vencida há mais de 30 dias",
+      "Excesso de lotação (passageiros) ou excesso de carga autorizada",
+      "Falta de apito ou buzina em barco com menos de 5 metros",
+      "Deixar de marcar o nome da embarcação na popa"
+    ],
+    "correctIndex": 1,
+    "explanation": "O excesso de passageiros (lotação) ou de carga é passível da mais alta pena de multa, classificada no Grupo G (de R$ 80,00 a R$ 3.200,00), com interrupção imediata da viagem.",
+    "normReference": "RLESTA / Apostila Unidade 1 pág. 4 e Quadro de Infrações pág. 74",
+    "image": null,
+    "answer": 1,
+    "reference": "RLESTA / Apostila Unidade 1 pág. 4 e Quadro de Infrações pág. 74"
+  },
+  {
+    "id": 387,
+    "topic": "Legislação Náutica",
+    "subtopic": "Processo Administrativo",
+    "question": "Após o recebimento do Auto de Infração, qual é o prazo concedido ao infrator para apresentar sua defesa prévia?",
+    "options": [
+      "5 dias corridos",
+      "10 dias úteis",
+      "15 dias úteis",
+      "30 dias corridos"
+    ],
+    "correctIndex": 2,
+    "explanation": "O infrator, após o recebimento do auto de infração, dispõe de 15 dias úteis para apresentar sua defesa perante a Capitania, Delegacia ou Agência.",
+    "normReference": "RLESTA / Apostila Unidade 1 pág. 8",
+    "image": null,
+    "answer": 2,
+    "reference": "RLESTA / Apostila Unidade 1 pág. 8"
+  },
+  {
+    "id": 388,
+    "topic": "Legislação Náutica",
+    "subtopic": "Processo Administrativo",
+    "question": "Caso o infrator não concorde com a penalidade imposta e queira interpor recurso à autoridade superior, qual o prazo e a exigência de pagamento?",
+    "options": [
+      "5 dias úteis, não sendo exigido o depósito prévio da multa",
+      "15 dias úteis, sendo obrigatório o depósito antecipado do valor total da multa",
+      "30 dias corridos com caução de 50% do valor",
+      "10 dias úteis com fiança bancária homologada"
+    ],
+    "correctIndex": 0,
+    "explanation": "O infrator disporá de 5 dias úteis para interpor recurso à autoridade superior. Se a pena for de multa, NÃO será exigido o depósito prévio para interposição do recurso.",
+    "normReference": "RLESTA / Apostila Unidade 1 pág. 8",
+    "image": null,
+    "answer": 0,
+    "reference": "RLESTA / Apostila Unidade 1 pág. 8"
+  },
+  {
+    "id": 389,
+    "topic": "Legislação Náutica",
+    "subtopic": "Validade de Documentos",
+    "question": "Qual é o prazo de validade da Carteira de Habilitação de Amador (CHA) para pessoas com idade igual ou superior a 65 anos?",
+    "options": [
+      "2 anos",
+      "5 anos",
+      "10 anos",
+      "Indeterminada, com exame bienal"
+    ],
+    "correctIndex": 1,
+    "explanation": "Para amadores com idade inferior a 65 anos, a CHA tem validade de 10 anos. Para amadores com idade igual ou superior a 65 anos, a validade da CHA é reduzida para 5 anos.",
+    "normReference": "NORMAM-03/211 / Apostila Unidade 1 pág. 11",
+    "image": null,
+    "answer": 1,
+    "reference": "NORMAM-03/211 / Apostila Unidade 1 pág. 11"
+  },
+  {
+    "id": 390,
+    "topic": "Legislação Náutica",
+    "subtopic": "Validade de Documentos",
+    "question": "Qual é a validade do Título de Inscrição de Embarcação (TIE) e do Seguro Obrigatório DPEM, respectivamente?",
+    "options": [
+      "TIE: 10 anos; DPEM: 5 anos",
+      "TIE: 5 anos; DPEM: 12 meses (1 ano)",
+      "TIE: 2 anos; DPEM: 24 meses",
+      "TIE: indeterminada; DPEM: semestral"
+    ],
+    "correctIndex": 1,
+    "explanation": "De acordo com as Normas da Autoridade Marítima, o TIE tem validade de 5 anos e o Seguro Obrigatório de Danos Pessoais (DPEM) tem validade de 12 meses (1 ano).",
+    "normReference": "NORMAM / Apostila Unidade 1 pág. 11",
+    "image": null,
+    "answer": 1,
+    "reference": "NORMAM / Apostila Unidade 1 pág. 11"
+  },
+  {
+    "id": 391,
+    "topic": "Legislação Náutica",
+    "subtopic": "Cancelamento de Inscrição",
+    "question": "Uma embarcação sujeita a vistorias terá sua inscrição ou registro compulsoriamente cancelado quando tiver seu paradeiro ignorado por mais de:",
+    "options": [
+      "6 meses",
+      "1 ano",
+      "2 anos (ou 3 anos para embarcações sujeitas a vistorias)",
+      "5 anos ininterruptos"
+    ],
+    "correctIndex": 2,
+    "explanation": "Embarcações com paradeiro ignorado por mais de 2 anos (e embarcações sujeitas a vistorias com paradeiro ignorado por mais de 3 anos) têm suas inscrições canceladas.",
+    "normReference": "LESTA / Apostila Unidade 1 pág. 5 e 11",
+    "image": null,
+    "answer": 2,
+    "reference": "LESTA / Apostila Unidade 1 pág. 5 e 11"
+  },
+  {
+    "id": 392,
+    "topic": "Legislação Náutica",
+    "subtopic": "Áreas de Segurança",
+    "question": "A que distância mínima de instalações militares e de plataformas de exploração de petróleo é proibido o tráfego e fundeio de embarcações?",
+    "options": [
+      "100 metros de militares e 200 metros de plataformas",
+      "200 metros de militares e 500 metros de plataformas de petróleo",
+      "500 metros de militares e 1.000 metros de plataformas",
+      "1.000 metros para ambas as instalações"
+    ],
+    "correctIndex": 1,
+    "explanation": "É proibido o tráfego e fundeio a menos de 200 metros de instalações militares e a menos de 500 metros das unidades estacionárias de produção de petróleo (plataformas).",
+    "normReference": "NORMAM / Apostila Unidade 1 pág. 8",
+    "image": null,
+    "answer": 1,
+    "reference": "NORMAM / Apostila Unidade 1 pág. 8"
+  },
+  {
+    "id": 393,
+    "topic": "Legislação Náutica",
+    "subtopic": "Áreas Seletivas",
+    "question": "Ao aproximar-se da praia para fundear, qual é a velocidade máxima permitida e o ângulo de aproximação em relação à linha base?",
+    "options": [
+      "Velocidade máxima de 8 nós, aproximando-se paralelo à praia",
+      "Velocidade não superior a 3 nós, em trajetória perpendicular à linha base",
+      "Velocidade livre, contanto que mantenha distância de 50 metros de banhistas",
+      "Velocidade constante de 5 nós em zigue-zague"
+    ],
+    "correctIndex": 1,
+    "explanation": "Toda aproximação para fundeio na faixa de praia deve ser feita em ângulo perpendicular à linha base e com velocidade não superior a três (3) nós, preservando a segurança dos banhistas.",
+    "normReference": "NORMAM / Apostila Unidade 1 pág. 8",
+    "image": null,
+    "answer": 1,
+    "reference": "NORMAM / Apostila Unidade 1 pág. 8"
+  },
+  {
+    "id": 394,
+    "topic": "Manobra, Atracação e Fundeio",
+    "subtopic": "Estabilidade",
+    "question": "Como são denominados, respectivamente, o movimento de oscilação vertical no sentido longitudinal (proa-popa) e o movimento de oscilação lateral (bordo a bordo)?",
+    "options": [
+      "Balanço e Deriva",
+      "Caturro (ou arfagem) e Balanço",
+      "Guinada e Cabeceio",
+      "Abatimento e Caimento"
+    ],
+    "correctIndex": 1,
+    "explanation": "Caturro ou arfagem é a oscilação vertical longitudinal (proa-popa); Balanço é o movimento de oscilação lateral de um bordo para o outro.",
+    "normReference": "Arte Naval / Apostila Unidade 2 pág. 14",
+    "image": null,
+    "answer": 1,
+    "reference": "Arte Naval / Apostila Unidade 2 pág. 14"
+  },
+  {
+    "id": 395,
+    "topic": "Manobra, Atracação e Fundeio",
+    "subtopic": "Estabilidade",
+    "question": "Em relação ao comportamento do balanço da embarcação, o que indica um balanço rápido e um balanço lento?",
+    "options": [
+      "Balanço rápido indica excesso de peso no convés; balanço lento indica estabilidade perfeita",
+      "Balanço rápido demonstra boa estabilidade; balanço lento indica estabilidade deficiente",
+      "Ambos indicam risco imediato de emborcamento",
+      "Balanço rápido indica navio leve; balanço lento indica água doce"
+    ],
+    "correctIndex": 1,
+    "explanation": "Um balanço rápido demonstra que a embarcação possui grande altura metacêntrica e boa estabilidade; já um balanço lento indica estabilidade deficiente.",
+    "normReference": "Arte Naval / Apostila Unidade 2 pág. 14",
+    "image": null,
+    "answer": 1,
+    "reference": "Arte Naval / Apostila Unidade 2 pág. 14"
+  },
+  {
+    "id": 396,
+    "topic": "Manobra, Atracação e Fundeio",
+    "subtopic": "Trim e Compasso",
+    "question": "Quando a embarcação apresenta calado de ré maior que o calado de vante, diz-se que ela está:",
+    "options": [
+      "Trimada ou em águas parelhas",
+      "Abicada",
+      "Derrabada",
+      "Adriçada"
+    ],
+    "correctIndex": 2,
+    "explanation": "Quando o calado a ré é maior que o calado a vante, a embarcação está derrabada. Quando o calado a vante é maior, está abicada. Quando iguais, está trimada (em águas parelhas).",
+    "normReference": "Arte Naval / Apostila Unidade 2 pág. 14",
+    "image": null,
+    "answer": 2,
+    "reference": "Arte Naval / Apostila Unidade 2 pág. 14"
+  },
+  {
+    "id": 397,
+    "topic": "Manobra, Atracação e Fundeio",
+    "subtopic": "Deformações do Casco",
+    "question": "A concentração excessiva de pesos nas extremidades (proa e popa), provocando arqueamento do casco com convexidade para cima, denomina-se:",
+    "options": [
+      "Contra-alquebramento",
+      "Alquebramento",
+      "Banda",
+      "Adernação"
+    ],
+    "correctIndex": 1,
+    "explanation": "Alquebramento ocorre pelo excesso de pesos na proa e popa (convexidade para cima). Contra-alquebramento ocorre pelo excesso de peso no centro (meia-nau), encurvando para baixo.",
+    "normReference": "Arte Naval / Apostila Unidade 2 pág. 14",
+    "image": null,
+    "answer": 1,
+    "reference": "Arte Naval / Apostila Unidade 2 pág. 14"
+  },
+  {
+    "id": 398,
+    "topic": "Manobra, Atracação e Fundeio",
+    "subtopic": "Estabilidade",
+    "question": "Qual fenômeno prejudica gravemente a estabilidade transversal quando tanques de combustível ou água estão parcialmente cheios?",
+    "options": [
+      "Efeito de águas rasas",
+      "Efeito de superfície livre",
+      "Convecção de lastro",
+      "Deslocamento aparente"
+    ],
+    "correctIndex": 1,
+    "explanation": "O efeito de superfície livre ocorre com tanques pela metade ou água solta no porão; ao adernar, o líquido se desloca para o mesmo lado, aumentando a inclinação e o risco de emborcar.",
+    "normReference": "Arte Naval / Apostila Unidade 2 pág. 15",
+    "image": null,
+    "answer": 1,
+    "reference": "Arte Naval / Apostila Unidade 2 pág. 15"
+  },
+  {
+    "id": 399,
+    "topic": "Manobra, Atracação e Fundeio",
+    "subtopic": "Leme e Propulsão",
+    "question": "Teoricamente, o efeito máximo do leme é obtido aos 45°. Porém, na prática náutica, o ângulo de efeito máximo útil não ultrapassa:",
+    "options": [
+      "15 graus",
+      "20 graus",
+      "35 graus",
+      "60 graus"
+    ],
+    "correctIndex": 2,
+    "explanation": "Teoricamente o efeito máximo do leme ocorre a 45°, mas na prática o efeito máximo útil não passa dos 35° para ambos os bordos.",
+    "normReference": "Arte Naval / Apostila Unidade 2 pág. 16",
+    "image": null,
+    "answer": 2,
+    "reference": "Arte Naval / Apostila Unidade 2 pág. 16"
+  },
+  {
+    "id": 400,
+    "topic": "Manobra, Atracação e Fundeio",
+    "subtopic": "Dois Hélices",
+    "question": "Numa embarcação de dois hélices, ao se dar marcha a ré em um motor e marcha adiante no outro com a mesma rotação, qual será a tendência da proa?",
+    "options": [
+      "A proa tenderá a girar para o mesmo bordo do hélice que dá ré",
+      "A proa tenderá a girar para o bordo do hélice que dá vante",
+      "A embarcação se deslocará em linha reta para ré",
+      "A embarcação adernará fortemente sem mudar o rumo"
+    ],
+    "correctIndex": 0,
+    "explanation": "Quando em embarcação de dois hélices um dá ré e o outro adiante com a mesma rotação, a embarcação tende a girar a proa para o mesmo bordo do hélice que dá ré.",
+    "normReference": "Arte Naval / Apostila Unidade 2 pág. 16",
+    "image": null,
+    "answer": 0,
+    "reference": "Arte Naval / Apostila Unidade 2 pág. 16"
+  },
+  {
+    "id": 401,
+    "topic": "Manobra, Atracação e Fundeio",
+    "subtopic": "Espias de Amarração",
+    "question": "Qual espia tem a função específica de evitar que a embarcação atracada se afaste lateralmente do cais?",
+    "options": [
+      "Lançante de proa",
+      "Espringue de popa",
+      "Través",
+      "Boça de reboque"
+    ],
+    "correctIndex": 2,
+    "explanation": "O través é a espia passada perpendicularmente ao cais a partir da meia-nau, tendo a função de evitar que a embarcação se afaste lateralmente do cais.",
+    "normReference": "Arte Naval / Apostila Unidade 2 pág. 17",
+    "image": null,
+    "answer": 2,
+    "reference": "Arte Naval / Apostila Unidade 2 pág. 17"
+  },
+  {
+    "id": 402,
+    "topic": "Manobra, Atracação e Fundeio",
+    "subtopic": "Espias de Amarração",
+    "question": "Quais espias têm a função de impedir que a embarcação atracada caia para a ré e caia para a vante, respectivamente?",
+    "options": [
+      "Lançante de proa (evita cair a ré) e Espringue de proa (evita cair a vante)",
+      "Través de proa e Través de popa",
+      "Boça e Arinque",
+      "Barrilete e Retinida"
+    ],
+    "correctIndex": 0,
+    "explanation": "O lançante de proa impede a embarcação de cair para a ré; o espringue de proa impede a embarcação de cair para a vante.",
+    "normReference": "Arte Naval / Apostila Unidade 2 pág. 17",
+    "image": null,
+    "answer": 0,
+    "reference": "Arte Naval / Apostila Unidade 2 pág. 17"
+  },
+  {
+    "id": 403,
+    "topic": "Manobra, Atracação e Fundeio",
+    "subtopic": "Âncoras",
+    "question": "Qual é a característica marcante da âncora Bruce em comparação com a Danforth?",
+    "options": [
+      "Não possui poder de unhar em lama ou areia",
+      "Necessita de um filame mínimo de apenas 3 vezes a profundidade (quase a metade do cabo da Danforth)",
+      "É feita exclusivamente de madeira e chumbo",
+      "É desmontável e flutuante"
+    ],
+    "correctIndex": 1,
+    "explanation": "A âncora Bruce unha com grande força e precisa de um filame mínimo de apenas 3 vezes a profundidade, enquanto a Danforth requer cerca de 5 vezes a profundidade.",
+    "normReference": "Arte Naval / Apostila Unidade 2 pág. 20",
+    "image": null,
+    "answer": 1,
+    "reference": "Arte Naval / Apostila Unidade 2 pág. 20"
+  },
+  {
+    "id": 404,
+    "topic": "Manobra, Atracação e Fundeio",
+    "subtopic": "Âncoras",
+    "question": "Qual âncora não serve para prender a embarcação ao fundo, mas tem a finalidade de reduzir a velocidade de deriva durante mau tempo e em balsas salva-vidas?",
+    "options": [
+      "Âncora Danforth",
+      "Âncora Garatéia",
+      "Âncora Flutuante (ou Drogue)",
+      "Âncora Cogumelo"
+    ],
+    "correctIndex": 2,
+    "explanation": "A âncora flutuante (Drogue ou âncora de mau tempo) é mantida na água para oferecer resistência hidrodinâmica e reduzir a deriva provocada por vento e corrente.",
+    "normReference": "Arte Naval / Apostila Unidade 2 pág. 21",
+    "image": null,
+    "answer": 2,
+    "reference": "Arte Naval / Apostila Unidade 2 pág. 21"
+  },
+  {
+    "id": 405,
+    "topic": "Manobra, Atracação e Fundeio",
+    "subtopic": "Terminologia Náutica",
+    "question": "A manobra efetuada para manter a proa chegada ao vento para aguentar o mau tempo, com pouco seguimento e formando uma esteira de calma, chama-se:",
+    "options": [
+      "Navegar à matroca",
+      "Correr com o tempo",
+      "Capear (pôr a embarcação à capa)",
+      "Garrar o ferro"
+    ],
+    "correctIndex": 2,
+    "explanation": "Capear (ou pôr à capa) é manter a proa chegada ao vento e ao mar com o mínimo de seguimento para aguentar o temporal de proa.",
+    "normReference": "Arte Naval / Apostila Unidade 2 pág. 21",
+    "image": null,
+    "answer": 2,
+    "reference": "Arte Naval / Apostila Unidade 2 pág. 21"
+  },
+  {
+    "id": 406,
+    "topic": "Manobra, Atracação e Fundeio",
+    "subtopic": "Nós e Voltas",
+    "question": "Qual nó é indicado para unir dois cabos de bitolas (espessuras) diferentes ou prender um chicote a um olhal?",
+    "options": [
+      "Nó direito",
+      "Nó de escota",
+      "Nó de catau",
+      "Volta do fiel"
+    ],
+    "correctIndex": 1,
+    "explanation": "O nó de escota é utilizado para emendar dois cabos de bitolas desiguais ou prender o chicote a uma alça/olhal. O nó direito serve apenas para cabos de bitolas iguais.",
+    "normReference": "Arte Naval / Apostila Unidade 2 pág. 22",
+    "image": null,
+    "answer": 1,
+    "reference": "Arte Naval / Apostila Unidade 2 pág. 22"
+  },
+  {
+    "id": 407,
+    "topic": "Manobra, Atracação e Fundeio",
+    "subtopic": "Nós e Voltas",
+    "question": "Para encurtar temporariamente um cabo ou isolar uma parte puída (coçada) que sofreu desgaste por atrito, utiliza-se o:",
+    "options": [
+      "Lais de guia",
+      "Nó de catau",
+      "Nó direito",
+      "Volta da ribeira"
+    ],
+    "correctIndex": 1,
+    "explanation": "O nó de catau tem a função de encurtar um cabo ou ocultar/isolar um trecho enfraquecido e puído sem cortá-lo.",
+    "normReference": "Arte Naval / Apostila Unidade 2 pág. 22",
+    "image": null,
+    "answer": 1,
+    "reference": "Arte Naval / Apostila Unidade 2 pág. 22"
+  },
+  {
+    "id": 408,
+    "topic": "Balizamento",
+    "subtopic": "Balizamento Fluvial",
+    "question": "Na sinalização fluvial brasileira, como são definidas a margem direita e a margem esquerda de um rio?",
+    "options": [
+      "Margem direita é a leste e margem esquerda é a oeste",
+      "Margem direita e esquerda são definidas na direção de quem sobe o rio (jusante para montante)",
+      "Margem direita fica ao lado direito e margem esquerda ao lado esquerdo de quem desce o rio (de montante para jusante)",
+      "A definição depende das marés da foz"
+    ],
+    "correctIndex": 2,
+    "explanation": "Na navegação fluvial, a margem esquerda fica ao lado esquerdo e a margem direita ao lado direito de quem desce o rio (olhando no sentido da correnteza, de montante para jusante).",
+    "normReference": "Balizamento Fluvial / Apostila Unidade 3 pág. 36 e 37",
+    "image": null,
+    "answer": 2,
+    "reference": "Balizamento Fluvial / Apostila Unidade 3 pág. 36 e 37"
+  },
+  {
+    "id": 409,
+    "topic": "Balizamento",
+    "subtopic": "Balizamento Fluvial",
+    "question": "Descendo um rio navegável (sentido montante para jusante), quais cores de boias devem ser deixadas por boreste e por bombordo, respectivamente?",
+    "options": [
+      "Boia encarnada por boreste e verde por bombordo",
+      "Boia verde por boreste e boia encarnada por bombordo",
+      "Boia amarela por boreste e preta por bombordo",
+      "Ambas devem ser deixadas por bombordo"
+    ],
+    "correctIndex": 1,
+    "explanation": "Descendo o rio (de montante para jusante), a margem direita tem sinalização verde e a esquerda encarnada; logo, o navegante deixa a boia verde por boreste e a encarnada por bombordo.",
+    "normReference": "Balizamento Fluvial / Apostila Unidade 3 pág. 36 e 69",
+    "image": null,
+    "answer": 1,
+    "reference": "Balizamento Fluvial / Apostila Unidade 3 pág. 36 e 69"
+  },
+  {
+    "id": 410,
+    "topic": "Balizamento",
+    "subtopic": "Balizamento Fluvial",
+    "question": "Pela tradicional \"Lei do Rio\", quando duas embarcações navegam em rumos opostos, qual delas tem a preferência e como devem se posicionar?",
+    "options": [
+      "A que sobe o rio tem preferência e navega pelo meio",
+      "A que desce a favor da correnteza posiciona-se no meio do rio e tem preferência de passagem",
+      "A menor sempre tem preferência sobre a maior",
+      "Ambas devem guinar para bombordo parando as máquinas"
+    ],
+    "correctIndex": 1,
+    "explanation": "A embarcação que navega a favor da correnteza (descendo o rio) deve posicionar-se no meio do rio (talvegue) e tem preferência de passagem; a que sobe navega pela sua margem direita.",
+    "normReference": "Lei do Rio / Apostila Unidade 3 pág. 36",
+    "image": null,
+    "answer": 1,
+    "reference": "Lei do Rio / Apostila Unidade 3 pág. 36"
+  },
+  {
+    "id": 411,
+    "topic": "RIPEAM",
+    "subtopic": "Sinais Sonoros de Ultrapassagem",
+    "question": "Em um canal estreito, qual é o sinal sonoro emitido por uma embarcação que tenciona ultrapassar outra pelo bordo de BORESTE da alcançada?",
+    "options": [
+      "Um apito curto",
+      "Dois apitos longos seguidos de um apito curto",
+      "Dois apitos longos seguidos de dois apitos curtos",
+      "Dois apitos curtos seguidos de um longo"
+    ],
+    "correctIndex": 1,
+    "explanation": "Regra 34(c): Dois apitos longos seguidos de um curto significam: \"Tenciono ultrapassá-lo por seu boreste\". Dois longos seguidos de dois curtos significam ultrapassagem por bombordo.",
+    "normReference": "RIPEAM Regra 34(c) / Apostila Unidade 3 pág. 31",
+    "image": null,
+    "answer": 1,
+    "reference": "RIPEAM Regra 34(c) / Apostila Unidade 3 pág. 31"
+  },
+  {
+    "id": 412,
+    "topic": "RIPEAM",
+    "subtopic": "Sinais Sonoros de Ultrapassagem",
+    "question": "Qual é o sinal sonoro emitido pela embarcação alcançada para indicar sua CONCORDÂNCIA com a ultrapassagem em canal estreito?",
+    "options": [
+      "Três apitos curtos",
+      "Dois apitos longos",
+      "Um apito longo, um curto, um longo e um curto (— • — •)",
+      "Cinco apitos curtos"
+    ],
+    "correctIndex": 2,
+    "explanation": "A embarcação alcançada indica concordância soando sucessivamente: um longo, um curto, um longo e um curto (código Morse letra C).",
+    "normReference": "RIPEAM Regra 34(c) / Apostila Unidade 3 pág. 31",
+    "image": null,
+    "answer": 2,
+    "reference": "RIPEAM Regra 34(c) / Apostila Unidade 3 pág. 31"
+  },
+  {
+    "id": 413,
+    "topic": "RIPEAM",
+    "subtopic": "Sinais de Perigo",
+    "question": "Qual dos seguintes NÃO é um sinal de perigo e pedido de socorro reconhecido pelo RIPEAM?",
+    "options": [
+      "A palavra MAYDAY transmitida por radiotelefonia",
+      "Movimentos contínuos com os braços para cima e para baixo",
+      "Dois apitos curtos emitidos em intervalos de 5 minutos",
+      "Bandeira quadrada com uma esfera (ou objeto semelhante) acima ou abaixo dela"
+    ],
+    "correctIndex": 2,
+    "explanation": "Sinais de perigo incluem MAYDAY, fumaça laranja, foguetes de estrela vermelha, código NC, braços para cima e para baixo, e bandeira com esfera. Dois apitos curtos significam guinada para bombordo.",
+    "normReference": "RIPEAM Anexo IV / Apostila Unidade 3 pág. 35 e 36",
+    "image": null,
+    "answer": 2,
+    "reference": "RIPEAM Anexo IV / Apostila Unidade 3 pág. 35 e 36"
+  },
+  {
+    "id": 414,
+    "topic": "Primeiros Socorros, Salvatagem e Incêndio",
+    "subtopic": "Primeiros Socorros",
+    "question": "De acordo com a apostila da Marinha, a que taxa de compressão torácica deve ser realizada a massagem cardíaca em uma vítima de parada?",
+    "options": [
+      "40 a 50 compressões por minuto",
+      "Cerca de 100 compressões por minuto",
+      "150 a 180 compressões por minuto",
+      "20 compressões por minuto"
+    ],
+    "correctIndex": 1,
+    "explanation": "A massagem cardíaca externa deve ser realizada a uma frequência média de 100 compressões por minuto sobre a metade inferior do osso esterno.",
+    "normReference": "Primeiros Socorros / Apostila Unidade 4 pág. 41",
+    "image": null,
+    "answer": 1,
+    "reference": "Primeiros Socorros / Apostila Unidade 4 pág. 41"
+  },
+  {
+    "id": 415,
+    "topic": "Primeiros Socorros, Salvatagem e Incêndio",
+    "subtopic": "Primeiros Socorros",
+    "question": "Qual tipo de queimadura atinge a epiderme e derme, apresentando como sintoma característico a formação de bolhas d’água (flictenas)?",
+    "options": [
+      "Queimadura de 1º Grau",
+      "Queimadura de 2º Grau",
+      "Queimadura de 3º Grau",
+      "Queimadura de 4º Grau"
+    ],
+    "correctIndex": 1,
+    "explanation": "A queimadura de 2º grau afeta a epiderme e parte da derme, caracterizando-se por vermelhidão, dor intensa e formação de bolhas (flictenas). 1º grau não forma bolhas e 3º grau causa necrose.",
+    "normReference": "Primeiros Socorros / Apostila Unidade 4 pág. 42",
+    "image": null,
+    "answer": 1,
+    "reference": "Primeiros Socorros / Apostila Unidade 4 pág. 42"
+  },
+  {
+    "id": 416,
+    "topic": "Primeiros Socorros, Salvatagem e Incêndio",
+    "subtopic": "Primeiros Socorros",
+    "question": "Na avaliação da extensão de queimaduras corporais, a palma da mão da própria vítima corresponde a aproximadamente qual percentual de sua área corporal?",
+    "options": [
+      "1% da superfície corporal",
+      "5% da superfície corporal",
+      "9% da superfície corporal",
+      "18% da superfície corporal"
+    ],
+    "correctIndex": 0,
+    "explanation": "A regra prática estabelece que a área da palma da mão da vítima equivale a aproximadamente 1% da sua superfície corporal total.",
+    "normReference": "Primeiros Socorros / Apostila Unidade 4 pág. 43",
+    "image": null,
+    "answer": 0,
+    "reference": "Primeiros Socorros / Apostila Unidade 4 pág. 43"
+  },
+  {
+    "id": 417,
+    "topic": "Primeiros Socorros, Salvatagem e Incêndio",
+    "subtopic": "Primeiros Socorros",
+    "question": "Quando é indicado o uso de torniquete e qual é o procedimento obrigatório quanto ao seu desaperto periódico?",
+    "options": [
+      "Em qualquer sangramento no rosto, desapertando a cada 1 hora",
+      "Apenas em casos extremos de amputação ou esmagamento de membros, desapertando gradualmente a cada 15 minutos",
+      "Em fraturas expostas da costela, mantendo apertado por 24 horas",
+      "Em picadas de animais marinhos no pé, sem nunca afrouxar"
+    ],
+    "correctIndex": 1,
+    "explanation": "O torniquete é restrito a amputações e esmagamentos de braço ou coxa. Deve-se anotar a hora e desapertá-lo gradualmente a cada 15 minutos para oxigenar os tecidos.",
+    "normReference": "Primeiros Socorros / Apostila Unidade 4 pág. 45 e 46",
+    "image": null,
+    "answer": 1,
+    "reference": "Primeiros Socorros / Apostila Unidade 4 pág. 45 e 46"
+  },
+  {
+    "id": 418,
+    "topic": "Primeiros Socorros, Salvatagem e Incêndio",
+    "subtopic": "Primeiros Socorros",
+    "question": "A hipotermia ocorre quando a temperatura central do corpo humano cai abaixo de:",
+    "options": [
+      "37°C",
+      "35°C",
+      "32°C",
+      "28°C"
+    ],
+    "correctIndex": 1,
+    "explanation": "Considera-se hipotermia quando a temperatura central cai abaixo de 35°C. Ela é responsável por grande parte dos óbitos de náufragos e vítimas de afogamento em águas frias.",
+    "normReference": "Primeiros Socorros / Apostila Unidade 4 pág. 47",
+    "image": null,
+    "answer": 1,
+    "reference": "Primeiros Socorros / Apostila Unidade 4 pág. 47"
+  },
+  {
+    "id": 419,
+    "topic": "Primeiros Socorros, Salvatagem e Incêndio",
+    "subtopic": "Homem ao Mar",
+    "question": "Qual manobra de resgate de homem ao mar consiste em guinar 70° para o bordo da queda e depois inverter todo o leme, retornando exatamente sobre a esteira do barco?",
+    "options": [
+      "Curva de Williamson",
+      "Curva de Boutakow",
+      "Curva de Anderson",
+      "Manobra Yankee"
+    ],
+    "correctIndex": 1,
+    "explanation": "A Curva de Boutakow consiste em guinar 70° para o bordo da queda e depois inverter o leme para o bordo oposto, retornando na mesma esteira do hélice. É uma das mais usadas a motor.",
+    "normReference": "Arte Naval / Apostila Unidade 6 pág. 58 e 59",
+    "image": null,
+    "answer": 1,
+    "reference": "Arte Naval / Apostila Unidade 6 pág. 58 e 59"
+  },
+  {
+    "id": 420,
+    "topic": "Primeiros Socorros, Salvatagem e Incêndio",
+    "subtopic": "Homem ao Mar",
+    "question": "Qual manobra de homem ao mar é a mais recomendada para situações em que a vítima ESTÁ NO VISUAL em boas condições de visibilidade?",
+    "options": [
+      "Curva de Anderson (guinada direta de 180°)",
+      "Curva de Williamson (guinada de 60°)",
+      "Curva de Boutakow (guinada de 70°)",
+      "Fundeio imediato de proa"
+    ],
+    "correctIndex": 0,
+    "explanation": "A Curva de Anderson é recomendada quando o homem está no visual: guina-se 180° para o bordo da queda, reduzindo máquinas para quebrar o seguimento ao se aproximar.",
+    "normReference": "Arte Naval / Apostila Unidade 6 pág. 58",
+    "image": null,
+    "answer": 0,
+    "reference": "Arte Naval / Apostila Unidade 6 pág. 58"
+  },
+  {
+    "id": 421,
+    "topic": "Primeiros Socorros, Salvatagem e Incêndio",
+    "subtopic": "Homem ao Mar",
+    "question": "Ao aproximar a embarcação para efetuar o recolhimento do náufrago da água, por qual bordo a vítima deve ser posicionada em relação ao vento?",
+    "options": [
+      "Por barlavento, para que o vento empurre a vítima contra o casco",
+      "Por sotavento, ficando a embarcação a barlavento formando uma proteção de calma",
+      "Exatamente na linha da hélice em marcha a ré",
+      "Pela proa com seguimento veloz"
+    ],
+    "correctIndex": 1,
+    "explanation": "Em todas as manobras, deve-se deixar o homem por sotavento (entre a bochecha e o través), parando a cerca de 10 metros, usando o costado do barco como anteparo de proteção.",
+    "normReference": "Arte Naval / Apostila Unidade 6 pág. 59",
+    "image": null,
+    "answer": 1,
+    "reference": "Arte Naval / Apostila Unidade 6 pág. 59"
+  },
+  {
+    "id": 422,
+    "topic": "Primeiros Socorros, Salvatagem e Incêndio",
+    "subtopic": "Sobrevivência no Mar",
+    "question": "A bordo de uma balsa salva-vidas, qual é a regra rígida quanto ao consumo de água potável pelos náufragos?",
+    "options": [
+      "Beber o máximo possível nas primeiras horas de abandono",
+      "Não ministrar água no primeiro dia (primeiras 24h); a partir do segundo dia, racionar 700 ml por náufrago/dia",
+      "Misturar 50% de água doce com 50% de água do mar para render",
+      "Consumir apenas quando sentir muita sede"
+    ],
+    "correctIndex": 1,
+    "explanation": "A água da balsa não deve ser ministrada no primeiro dia. Do segundo dia em diante, cada náufrago deve consumir cerca de 700 ml/dia. Nunca beber água do mar nem urina.",
+    "normReference": "Sobrevivência no Mar / Apostila Unidade 6 pág. 60 e 63",
+    "image": null,
+    "answer": 1,
+    "reference": "Sobrevivência no Mar / Apostila Unidade 6 pág. 60 e 63"
+  },
+  {
+    "id": 423,
+    "topic": "Legislação Náutica",
+    "subtopic": "Comunicações Náuticas",
+    "question": "Qual é o canal internacional de socorro, chamada e trânsito inicial em VHF marítimo e sua frequência correspondente em MHz?",
+    "options": [
+      "Canal 68 (156,425 MHz)",
+      "Canal 16 (156,800 MHz)",
+      "Canal 70 (156,525 MHz)",
+      "Canal 12 (156,600 MHz)"
+    ],
+    "correctIndex": 1,
+    "explanation": "O Canal 16 em VHF opera na frequência de 156,800 MHz e é o canal internacional obrigatório de socorro, segurança e chamada inicial da Marinha.",
+    "normReference": "Comunicações / Apostila Unidade 7 pág. 65 e 66",
+    "image": null,
+    "answer": 1,
+    "reference": "Comunicações / Apostila Unidade 7 pág. 65 e 66"
+  },
+  {
+    "id": 424,
+    "topic": "Legislação Náutica",
+    "subtopic": "Comunicações Náuticas",
+    "question": "Por que é expressamente PROIBIDA a transmissão de voz (radiotelefonia) no Canal 70 de VHF marítimo (156,525 MHz)?",
+    "options": [
+      "Porque é um canal reservado exclusivamente para os canais de TV aberta",
+      "Porque é um canal digital exclusivo para Chamada Seletiva Digital (DSC)",
+      "Porque é o canal exclusivo de conversas privadas entre marinas",
+      "Porque causa interferência nos sonares dos submarinos"
+    ],
+    "correctIndex": 1,
+    "explanation": "O Canal 70 (156,525 MHz) é reservado estritamente para dados de Chamada Seletiva Digital (DSC) de emergência e rotina. É terminantemente proibido transmitir voz nesse canal.",
+    "normReference": "Comunicações / Apostila Unidade 7 pág. 66",
+    "image": null,
+    "answer": 1,
+    "reference": "Comunicações / Apostila Unidade 7 pág. 66"
+  },
+  {
+    "id": 425,
+    "topic": "Motonauta",
+    "subtopic": "Segurança em Jet-Ski",
+    "question": "Quanto ao transporte de crianças em motos aquáticas (jet-ski), qual é a regra fixada pelas Normas da Autoridade Marítima?",
+    "options": [
+      "É permitido para qualquer idade se estiver vestindo colete",
+      "É proibido o transporte de crianças com idade inferior a 7 anos; de 7 a 12 anos podem ser conduzidas na garupa com autorização",
+      "É proibido até os 16 anos completos",
+      "A criança pode viajar sentada na frente do condutor desde que segure o guidom"
+    ],
+    "correctIndex": 1,
+    "explanation": "É proibido transportar crianças menores de 7 anos em motos aquáticas e bananas boat. Entre 7 e 12 anos podem na garupa (nunca na frente), com autorização dos pais e alcançando os apoios de pé.",
+    "normReference": "NORMAM-212 / Apostila Unidade 1 pág. 12",
+    "image": null,
+    "answer": 1,
+    "reference": "NORMAM-212 / Apostila Unidade 1 pág. 12"
+  },
+  {
+    "id": 426,
+    "topic": "Motonauta",
+    "subtopic": "Reboque de Banana-Boat",
+    "question": "Para uma moto aquática realizar o reboque de banana-boat comercial, quais requisitos são exigidos do piloto e da capacidade do jet?",
+    "options": [
+      "Basta ser Arrais-Amador em jet de 2 lugares",
+      "Capacidade mínima de 3 lugares (condutor, observador e espaço livre), piloto habilitado como Motonauta E Aquaviário, e espelhos retrovisores",
+      "Qualquer moto aquática de 1 lugar com espelho retrovisor pequeno",
+      "Apenas embarcações de grande porte podem rebocar banana-boat"
+    ],
+    "correctIndex": 1,
+    "explanation": "Para reboque de banana-boat por moto aquática: o jet deve ter no mínimo 3 lugares (condutor, observador e vaga de resgate), condutor habilitado como motonauta e aquaviário, e espelho de grande ângulo.",
+    "normReference": "NORMAM-212 / Apostila Unidade 1 pág. 11 e 12",
+    "image": null,
+    "answer": 1,
+    "reference": "NORMAM-212 / Apostila Unidade 1 pág. 11 e 12"
+  },
+  {
+    "id": 427,
+    "topic": "RIPEAM",
+    "subtopic": "Sinais Sonoros",
+    "question": "Em situação de manobra no visual com outra embarcação, o que significam exatamente dois (2) apitos curtos emitidos por uma embarcação de propulsão mecânica?",
+    "options": [
+      "Estou dando máquinas atrás (marcha a ré)",
+      "Estou guinando para bombordo (esquerda)",
+      "Estou guinando para boreste (direita)",
+      "Estou dando máquinas adiante com velocidade máxima",
+      "Estou parando minhas máquinas em emergência"
+    ],
+    "correctIndex": 1,
+    "explanation": "De acordo com a Regra 34(a) do RIPEAM-72, em situação de visibilidade mútua, um apito curto significa \"estou guinando para boreste\", dois apitos curtos significam \"estou guinando para bombordo\" e três apitos curtos significam \"estou dando atrás\".",
+    "normReference": "RIPEAM-72 Regra 34(a) / Apostila Unidade 3 pág. 33"
+  },
+  {
+    "id": 428,
+    "topic": "RIPEAM",
+    "subtopic": "Sinais Sonoros em Visibilidade Restrita",
+    "question": "Sob nevoeiro, chuva torrencial ou cerração (visibilidade restrita), a emissão de um apito longo em intervalos não superiores a dois (2) minutos identifica:",
+    "options": [
+      "Embarcação fundeada advertindo navio que se aproxima",
+      "Embarcação parada e sem seguimento na água",
+      "Embarcação rebocando outra embarcação em canal restrito",
+      "Embarcação de propulsão mecânica com seguimento navegando na água",
+      "Embarcação sem governo parada à deriva"
+    ],
+    "correctIndex": 3,
+    "explanation": "Conforme a Regra 35(a) do RIPEAM-72, uma embarcação de propulsão mecânica com seguimento através da água deverá soar a intervalos não superiores a 2 minutos um apito longo. Se estivesse parada sem seguimento, soaria dois apitos longos.",
+    "normReference": "RIPEAM-72 Regra 35(a) / Apostila Unidade 3 pág. 34"
+  },
+  {
+    "id": 429,
+    "topic": "RIPEAM",
+    "subtopic": "Definições Gerais",
+    "question": "Para efeitos de aplicação das regras de manobra e preferência do RIPEAM, como é legalmente definida uma \"embarcação a vela\"?",
+    "options": [
+      "Qualquer embarcação sob vela desde que sua máquina de propulsão, se houver, não esteja em uso",
+      "Qualquer embarcação que possua mastros e velas instalados, mesmo operando o motor de centro",
+      "Exclusivamente barcos à vela que participem de regatas oficiais em áreas abrigadas",
+      "Qualquer veleiro navegando em mar aberto, independentemente do uso concomitante de propulsão mecânica",
+      "Embarcações sem cabine com propulsão híbrida operando simultaneamente vela e motor"
+    ],
+    "correctIndex": 0,
+    "explanation": "A Regra 3(c) do RIPEAM estabelece que o termo \"embarcação a vela\" designa qualquer embarcação sob vela, desde que a máquina de propulsão, se houver, não esteja em uso. Se ligar o motor, equipara-se a embarcação a motor.",
+    "normReference": "RIPEAM-72 Regra 3(c) / Apostila Unidade 3 pág. 26"
+  },
+  {
+    "id": 430,
+    "topic": "Balizamento",
+    "subtopic": "Balizamento Fluvial",
+    "question": "Na sinalização cega fixa de vias navegáveis interiores (hidrovias e rios), qual o significado de um painel exibindo o símbolo gráfico de uma cruz (\"+\")?",
+    "options": [
+      "Recomendação para trocar imediatamente de margem",
+      "Bifurcação de canal navegável adiante",
+      "Indicação de manter a navegação junto à margem",
+      "Seguir a navegação exatamente a meio do canal",
+      "Sinal de Perigo Isolado, alertando sobre risco à navegação no local"
+    ],
+    "correctIndex": 4,
+    "explanation": "No Regulamento Único de Balizamento Fluvial e Lacustre, o sinal visual cego fixo exibindo o símbolo de uma cruz \"+\" (frequentemente inscrito em painéis circulares pretos) representa PERIGO ISOLADO.",
+    "normReference": "Balizamento Fluvial / Apostila Anexos pág. 70 e 71"
+  },
+  {
+    "id": 431,
+    "topic": "Balizamento",
+    "subtopic": "Canal Preferencial",
+    "question": "Aproximando-se de uma bifurcação de canal no Sistema IALA B, o navegante identifica uma boia que indica que o canal preferencial (maior profundidade) situa-se a seu BORESTE. Quais são as cores e padrão visual desta boia?",
+    "options": [
+      "Encarnada com uma faixa horizontal amarela no centro",
+      "Encarnada com uma faixa horizontal verde no centro",
+      "Preta com faixas horizontais amarelas",
+      "Verde com uma faixa horizontal encarnada no centro",
+      "Amarela e preta com faixas verticais alternadas"
+    ],
+    "correctIndex": 3,
+    "explanation": "No Sistema IALA Região B (Brasil), o canal preferencial a BORESTE é sinalizado por boia verde com faixa horizontal encarnada e tope cônico verde. Se o canal preferencial fosse a bombordo, a boia seria encarnada com faixa verde.",
+    "normReference": "Sistema IALA B / Apostila Unidade 3 pág. 35"
+  },
+  {
+    "id": 432,
+    "topic": "Manobra, Atracação e Fundeio",
+    "subtopic": "Espias e Amarração",
+    "question": "Como é denominada a espia (cabo de amarração) passada do centro ou bordo da embarcação que sai perpendicularmente em direção ao cais, impedindo o afastamento lateral?",
+    "options": [
+      "Través",
+      "Espringue de popa",
+      "Lançante de proa",
+      "Alheta",
+      "Retinida flutuante"
+    ],
+    "correctIndex": 0,
+    "explanation": "O Través é a espia passada do meio (ou bordos) perpendicularmente ao cais, sem inclinação a vante ou a ré. Sua função é impedir que a embarcação se afaste transversalmente do cais.",
+    "normReference": "Arte Naval / Apostila Unidade 2 pág. 19"
+  },
+  {
+    "id": 433,
+    "topic": "Manobra, Atracação e Fundeio",
+    "subtopic": "Nomenclatura do Casco",
+    "question": "Assinale a alternativa que correlaciona corretamente as posições e bordos relativos de uma embarcação para quem está a bordo olhando da popa para a proa:",
+    "options": [
+      "Boreste é o lado direito, Bombordo é o lado esquerdo, Avante fica na frente e a Ré fica atrás",
+      "Boreste é o lado esquerdo, Bombordo é o lado direito, Avante fica na frente e a Ré fica atrás",
+      "Alheta é o lado direito, Bochecha é o lado esquerdo, Costado é a frente da embarcação",
+      "Través é o bordo direito, Bombordo é o fundo da quilha, Linha d'água é a borda livre",
+      "Través é o lado direito, Avante é a frente, Calado é a medida da proa até a popa"
+    ],
+    "correctIndex": 0,
+    "explanation": "Olhando da popa para a proa: o bordo direito é BORESTE (BE), o bordo esquerdo é BOMBORDO (BB), o sentido para a frente é A VANTE e para trás é A RÉ.",
+    "normReference": "Nomenclatura Náutica / Apostila Unidade 2 pág. 15"
+  },
+  {
+    "id": 434,
+    "topic": "Manobra, Atracação e Fundeio",
+    "subtopic": "Desatracação com Vento",
+    "question": "Para desatracar uma embarcação com vento e correnteza incidindo diretamente pela PROA (de vante para ré), qual é o procedimento técnico recomendado?",
+    "options": [
+      "Largar todas as espias simultaneamente e manter o leme estritamente a meio",
+      "Largar todas as espias exceto a que diz para vante na popa (espringue de popa), mantendo o leme contrário ao cais e dando máquinas atrás devagar",
+      "Largar somente as espias da popa, folgar as da proa e dar máquinas toda força adiante",
+      "Manter apenas o lançante de proa e dar marcha a ré rápida contra o cais",
+      "Largar as espias da proa mantendo o través de meia-nau tesado ao máximo"
+    ],
+    "correctIndex": 1,
+    "explanation": "Com correnteza pela proa, mantém-se o espringue de popa (diz para vante), leme contrário ao cais e máquinas atrás; a corrente ajudará a afastar a proa do cais com segurança e facilidade.",
+    "normReference": "Manobras de Atracação / Apostila Unidade 2 pág. 21 (Figura 6)"
+  },
+  {
+    "id": 435,
+    "topic": "Primeiros Socorros, Salvatagem e Incêndio",
+    "subtopic": "Hemorragias",
+    "question": "No atendimento inicial a uma vítima que sofreu hemorragia externa abundante, por qual motivo primordial ela deve ser mantida aquecida com agasalhos ou cobertores?",
+    "options": [
+      "Para prevenir e evitar o estado de choque (choque hipovolêmico)",
+      "Para interromper diretamente o sangramento arterial profundo",
+      "Para elevar a pressão arterial acima dos níveis fisiológicos normais",
+      "Para facilitar a dilatação das artérias periféricas feridas",
+      "Exclusivamente para evitar dores musculares pós-trauma"
+    ],
+    "correctIndex": 0,
+    "explanation": "A perda expressiva de sangue reduz a perfusão tecidual e causa hipotermia precoce, precipitando o estado de choque hipovolêmico. Manter a vítima aquecida e calma é vital.",
+    "normReference": "PRISOC / Apostila Unidade 4 pág. 47 e 48"
+  },
+  {
+    "id": 436,
+    "topic": "Primeiros Socorros, Salvatagem e Incêndio",
+    "subtopic": "Sobrevivência no Mar",
+    "question": "Em uma balsa salva-vidas homologada, qual é o principal constituinte calórico e nutricional das rações sólidas de emergência destinadas aos náufragos?",
+    "options": [
+      "Proteína desidratada e carne salgada em conserva",
+      "Fibras alimentares purificadas para trânsito intestinal",
+      "Cloreto de sódio e eletrólitos concentrados",
+      "Complexos vitamínicos em cápsulas oleosas",
+      "Açúcar (glicose) e compostos de fácil metabolização energética"
+    ],
+    "correctIndex": 4,
+    "explanation": "As rações sólidas de sobrevivência são à base de glicose e carboidratos simples (açúcar). O organismo de náufrago gasta menos água metabólica digerindo carboidratos do que proteínas.",
+    "normReference": "Salvatagem Náutica / Apostila Unidade 6 pág. 62 e 65"
+  },
+  {
+    "id": 437,
+    "topic": "Legislação Náutica",
+    "subtopic": "Medidas Administrativas",
+    "question": "Segundo a LESTA e o RLESTA, em qual das seguintes situações a embarcação está sujeita à medida administrativa de APREENSÃO pela Inspeção Naval?",
+    "options": [
+      "Navegar sem a dotação regulamentar de extintores de incêndio ou com estes inoperantes",
+      "Ser utilizada comercialmente quando registrada exclusivamente para esporte e recreio",
+      "Trafegar em péssimo estado de conservação ou em áreas de segurança proibidas",
+      "Ser conduzida por pessoa em estado de embriaguez alcoólica ou sem habilitação",
+      "Todas as opções acima configuram motivos legais para apreensão da embarcação"
+    ],
+    "correctIndex": 4,
+    "explanation": "Conforme o Art. 16 da LESTA e regulamento na RLESTA, a apreensão da embarcação é aplicada em desvios graves de segurança, uso comercial indevido, embriaguez, condutor inabilitado e tráfego em áreas proibidas.",
+    "normReference": "LESTA Art. 16 / RLESTA / Apostila Unidade 1 pág. 10 e 12"
+  },
+  {
+    "id": 438,
+    "topic": "Legislação Náutica",
+    "subtopic": "Definições da LESTA",
+    "question": "De acordo com a Lei de Segurança do Tráfego Aquaviário (Lei nº 9.537/1997 - LESTA), como é formalmente definido o \"Amador\"?",
+    "options": [
+      "O navegante experiente habilitado para conduzir pequenas embarcações com finalidade pesqueira comercial",
+      "A pessoa jurídica responsável pelo aparelhamento e gestão de embarcações de aluguel",
+      "Todo aquele com habilitação certificada pela autoridade marítima para operar embarcações de esporte e recreio, em caráter não profissional",
+      "O tripulante certificado pela Capitania para exercer serviços auxiliares e transporte remunerado de turistas",
+      "O condutor voluntário de embarcações oficiais do Corpo de Bombeiros e Defesa Civil"
+    ],
+    "correctIndex": 2,
+    "explanation": "Art. 2º da LESTA: Amador é todo aquele com habilitação certificada pela autoridade marítima para operar embarcações de esporte e recreio, em caráter não profissional.",
+    "normReference": "LESTA Lei nº 9.537/97 Art. 2º / Apostila Unidade 1 pág. 3"
+  },
+  {
+    "id": 439,
+    "topic": "Legislação Náutica",
+    "subtopic": "Débitos Decorrentes de Infração",
+    "question": "Nos termos da LESTA, a Autoridade Marítima sustará o andamento de qualquer documento ou ato administrativo de interesse de quem estiver em débito decorrente de infração até:",
+    "options": [
+      "A sua efetiva e integral quitação",
+      "O decurso do prazo regulamentar de 60 dias corridos",
+      "A formalização da alienação ou venda da embarcação",
+      "O decurso do prazo administrativo de 12 meses",
+      "A emissão do Termo Provisório de Responsabilidade Civil"
+    ],
+    "correctIndex": 0,
+    "explanation": "A LESTA estabelece expressamente que a Autoridade Marítima sustará o andamento de qualquer documento ou ato administrativo de interesse de infrator em débito até a sua integral quitação.",
+    "normReference": "LESTA Art. 21 / Apostila Unidade 1 pág. 7"
+  },
+  {
+    "id": 440,
+    "topic": "Legislação Náutica",
+    "subtopic": "Embarcações Estrangeiras",
+    "question": "Caso uma embarcação estrangeira apresente irregularidades que ameacem o meio ambiente, a segurança de navegação ou terceiros, a Autoridade Marítima pode ordená-la a:",
+    "options": [
+      "Substituir compulsoriamente seu comandante e repatriar a tripulação",
+      "Sair imediatamente das águas jurisdicionais brasileiras (AJB) ou não entrar no porto",
+      "Converter seu registro provisório para a bandeira mercante brasileira",
+      "Entregar suas cartas de navegação e aguardar liberação alfandegária",
+      "Submeter-se a processo criminal militar perante o Tribunal Marítimo"
+    ],
+    "correctIndex": 1,
+    "explanation": "Embarcação estrangeira que apresente risco ou irregularidades graves pode ser impedida de entrar ou sair do porto, intimada a arribar em porto nacional ou ordenada a deixar as águas jurisdicionais.",
+    "normReference": "LESTA Art. 17 / Apostila Unidade 1 pág. 14"
+  },
+  {
+    "id": 441,
+    "topic": "Legislação Náutica",
+    "subtopic": "Plano de Navegação",
+    "question": "Antes de desatracar e suspender para um passeio de lazer náutico, qual procedimento de segurança é mandatório perante a marina ou iate clube?",
+    "options": [
+      "Apresentar cópia autenticada do Cartão de Tripulação de Segurança",
+      "Registrar a vistoria periódica expedida pela Capitania dos Portos",
+      "Entregar o Plano de Navegação (ou Aviso de Saída e Chegada)",
+      "Submeter relatório de análise físico-química de combustível",
+      "Apresentar apólice de seguro privada para bens materiais de passageiros"
+    ],
+    "correctIndex": 2,
+    "explanation": "Antes de sair para o mar ou rio, o condutor deve entregar na Marina ou Iate Clube o Plano de Navegação (Aviso de Saída e Chegada), permitindo rápido resgate pela Marinha em emergências.",
+    "normReference": "NORMAM-03/211 / Apostila Unidade 1 pág. 14"
+  },
+  {
+    "id": 442,
+    "topic": "Legislação Náutica",
+    "subtopic": "Classificação da Navegação",
+    "question": "Conforme a RLESTA (Decreto nº 2.596/1998), como é classificada a navegação realizada entre portos ou pontos do território brasileiro utilizando a via marítima ou esta conjugada com vias navegáveis interiores?",
+    "options": [
+      "Navegação ortodrômica oceânica",
+      "Navegação de cabotagem",
+      "Navegação puramente interior de bacia",
+      "Navegação de longo curso internacional",
+      "Navegação costeira de travessia polar"
+    ],
+    "correctIndex": 1,
+    "explanation": "Navegação de Cabotagem é aquela realizada entre portos ou pontos do território nacional, utilizando a via marítima ou esta e as vias navegáveis interiores.",
+    "normReference": "RLESTA Art. 4º / Apostila Unidade 1 pág. 7"
+  },
+  {
+    "id": 443,
+    "topic": "Legislação Náutica",
+    "subtopic": "Reincidência de Infrações",
+    "question": "Para efeito de dosimetria e agravação de penalidades na RLESTA, em qual intervalo temporal a repetição da mesma infração configura reincidência?",
+    "options": [
+      "Período igual ou inferior a 12 (doze) meses",
+      "Período de até 6 (seis) meses a contar do julgamento",
+      "Período igual ou inferior a 18 (dezoito) meses",
+      "Período de até 3 (três) meses corridos",
+      "Período de 24 (vinte e quatro) meses a contar da notificação"
+    ],
+    "correctIndex": 0,
+    "explanation": "A reincidência é caracterizada pela repetição da prática da mesma infração em período igual ou inferior a 12 meses, implicando na multiplicação da penalidade por 2, 3 e sucessivamente.",
+    "normReference": "RLESTA / Apostila Unidade 1 pág. 8"
+  },
+  {
+    "id": 444,
+    "topic": "Legislação Náutica",
+    "subtopic": "Áreas Seletivas e Banhistas",
+    "question": "Para efeito de delimitação das áreas seletivas de navegação e proteção de banhistas, como é legalmente definida a \"Linha Base\"?",
+    "options": [
+      "A linha imaginária traçada a 500 metros dos faróis da costa",
+      "A linha da arrebentação das ondas ou onde se inicia o espelho d'água em rios e lagoas",
+      "A linha divisória entre a água salgada e a água doce na desembocadura",
+      "A linha que une os marcos de alinhamento geográfico municipal",
+      "A linha que marca o calado máximo operacional do porto"
+    ],
+    "correctIndex": 1,
+    "explanation": "A Linha Base é a linha de arrebentação das ondas ou, no caso de lagos, lagoas e represas, a margem onde se inicia o espelho d'água.",
+    "normReference": "NORMAM-03/211 / Apostila Unidade 1 pág. 10"
+  },
+  {
+    "id": 445,
+    "topic": "Legislação Náutica",
+    "subtopic": "Processo Administrativo",
+    "question": "Lavrado o Auto de Infração pela equipe de Inspeção Naval, quantos dias úteis o autuado possui para apresentar sua defesa escrita?",
+    "options": [
+      "30 (trinta) dias úteis",
+      "30 (trinta) dias corridos",
+      "60 (sessenta) dias úteis",
+      "15 (quinze) dias úteis",
+      "7 (sete) dias úteis improrrogáveis"
+    ],
+    "correctIndex": 3,
+    "explanation": "O infrator dispõe de 15 (quinze) dias úteis contados do recebimento do auto de infração para protocolar sua defesa perante a autoridade competente.",
+    "normReference": "RLESTA / Apostila Unidade 1 pág. 8"
+  },
+  {
+    "id": 446,
+    "topic": "Primeiros Socorros, Salvatagem e Incêndio",
+    "subtopic": "Combustíveis e Comburentes",
+    "question": "Qual dos materiais abaixo é classificado como combustível que NÃO possui comburente em sua estrutura íntima, necessitando de oxigênio externo para queimar?",
+    "options": [
+      "Pólvora negra balística",
+      "Nitrato de celulose",
+      "Clorato de potássio prensado",
+      "Madeira",
+      "Metal titânio pirofórico"
+    ],
+    "correctIndex": 3,
+    "explanation": "A madeira é um combustível sólido comum sem comburente em sua composição; depende do ar atmosférico (oxigênio com concentração mínima de 16%) para queimar. Pólvoras e nitratos já possuem comburente interno.",
+    "normReference": "CBINC / Apostila Unidade 5 pág. 53"
+  },
+  {
+    "id": 447,
+    "topic": "Primeiros Socorros, Salvatagem e Incêndio",
+    "subtopic": "Prevenção de Incêndios",
+    "question": "Na gestão de segurança e boas práticas de marinharia a bordo de embarcações de lazer, qual é considerado o primeiro e mais eficiente método contra incêndios?",
+    "options": [
+      "Manter baterias sempre descarregadas durante a navegação",
+      "Limpar os porões exclusivamente com solventes de petróleo",
+      "Substituir o gás GLP por carvão vegetal na cozinha náutica",
+      "Desconectar a chave geral do motor com o barco em alta velocidade",
+      "A prevenção diária contínua, evitando que as condições propícias ao fogo ocorram"
+    ],
+    "correctIndex": 4,
+    "explanation": "O método prioritário e mais eficiente é a PREVENÇÃO: inspeção rotineira de mangueiras de combustível, limpeza de porões, ventilação antes de dar partida e instalação elétrica correta.",
+    "normReference": "CBINC / Apostila Unidade 5 pág. 56"
+  },
+  {
+    "id": 448,
+    "topic": "Primeiros Socorros, Salvatagem e Incêndio",
+    "subtopic": "Suporte Básico de Vida",
+    "question": "Antes de realizar ventilações artificiais (boca a boca) em uma vítima inconsciente com parada respiratória, qual a primeira conduta obrigatória?",
+    "options": [
+      "Desobstruir as vias aéreas superiores retirando próteses, vômitos ou corpos estranhos",
+      "Tampar hermeticamente as narinas sem posicionar o queixo",
+      "Verificar se a pressão arterial sistólica está elevada",
+      "Aplicar compressas com água fria na região torácica",
+      "Higienizar as cavidades orais com solução antisséptica"
+    ],
+    "correctIndex": 0,
+    "explanation": "A primeira etapa na análise primária da vítima é abrir e desobstruir as vias aéreas (retirar secreções, dentes soltos, vômito ou objetos) e hiperestender o queixo para o ar passar.",
+    "normReference": "PRISOC / Apostila Unidade 4 pág. 41 e 43"
+  },
+  {
+    "id": 449,
+    "topic": "Manobra, Atracação e Fundeio",
+    "subtopic": "Medidas Lineares da Embarcação",
+    "question": "Quais são as principais medidas lineares que expressam a geometria e o dimensionamento do casco de uma embarcação?",
+    "options": [
+      "Boca, calado, quilha e través longitudinal",
+      "Boreste, bombordo, alheta e bochecha de proa",
+      "Comprimento total, boca, pontal e contorno",
+      "Comprimento total, boca, calado aéreo e cavernas",
+      "Boca moldada, contorno de quilha, leme e cana"
+    ],
+    "correctIndex": 2,
+    "explanation": "As quatro medidas lineares clássicas da arquitetura naval para cálculo de arqueação e porte são: Comprimento Total, Boca (largura de borda a borda), Pontal (altura da quilha ao convés) e Contorno.",
+    "normReference": "Arte Naval / Apostila Unidade 2 pág. 15"
+  },
+  {
+    "id": 450,
+    "topic": "Legislação Náutica",
+    "subtopic": "Programa de Habilitação",
+    "question": "Dentre as matérias e competências náuticas, qual é requisito fundamental e obrigatório no exame de habilitação para a categoria de Arrais-Amador?",
+    "options": [
+      "Cálculos de navegação astronômica por tábuas e sextante",
+      "Operação de sistema de posicionamento dinâmico e ECDIS",
+      "O Sistema de Balizamento Marítimo e Fluvial IALA Região B",
+      "Instalação e manutenção de rádiofaróis transponder EPIRB de alta potência",
+      "Navegação hiperbólica em rotas ortodrômicas de alto-mar"
+    ],
+    "correctIndex": 2,
+    "explanation": "O programa oficial para Arrais-Amador (NORMAM-03/211) exige domínio pleno do Sistema de Balizamento IALA B, Regras de Governo do RIPEAM, manobras, segurança e combate a incêndio em navegação interior.",
+    "normReference": "NORMAM-03/211 Anexo 5-A / Apostila pág. 2 e 24"
+  },
+  {
+    "id": 451,
+    "topic": "RIPEAM",
+    "subtopic": "Sinais Sonoros de Apito",
+    "question": "Segundo o RIPEAM-72, qual é a duração técnica aproximada de um \"apito curto\"?",
+    "options": [
+      "De 4 a 6 segundos",
+      "De 2 a 3 segundos",
+      "Cerca de 3 segundos",
+      "Menos de meio segundo",
+      "Cerca de 1 segundo"
+    ],
+    "correctIndex": 4,
+    "explanation": "Conforme a Regra 32 do RIPEAM: o apito curto tem duração aproximada de 1 segundo; o apito longo dura de 4 a 6 segundos.",
+    "normReference": "RIPEAM-72 Regra 32 / Apostila Unidade 3 pág. 33"
+  },
+  {
+    "id": 452,
+    "topic": "RIPEAM",
+    "subtopic": "Velocidade de Segurança",
+    "question": "De acordo com a Regra 6 do RIPEAM, como toda embarcação deve navegar permanentemente a fim de poder manobrar com eficácia e ser parada a distância segura de colisão?",
+    "options": [
+      "Em Velocidade de Segurança, adequada às circunstâncias e condições predominantes",
+      "Na velocidade máxima que o motor permitir para desocupar rapidamente o canal",
+      "Em zigue-zague contínuo para manter boa visibilidade de proa",
+      "Sempre em marcha lenta com o leme travado a bombordo",
+      "Em velocidade igual ou superior a 15 nós para vencer as correntes"
+    ],
+    "correctIndex": 0,
+    "explanation": "A Regra 6 do RIPEAM determina que toda embarcação deve navegar sempre em \"Velocidade de Segurança\", de modo que possa realizar manobras eficientes e parar a distância apropriada.",
+    "normReference": "RIPEAM-72 Regra 6 / Apostila Unidade 3 pág. 27"
+  },
+  {
+    "id": 453,
+    "topic": "Legislação Náutica",
+    "subtopic": "Identificação de Embarcações",
+    "question": "Em relação à marcação de nome no costado, para qual tipo de embarcação é dispensada a gravação de nome em letras destacadas?",
+    "options": [
+      "Embarcações estrangeiras em trânsito com passaporte náutico",
+      "Embarcações miúdas (dispensadas do nome no costado, mantendo a inscrição no TIEM)",
+      "Embarcações de grande porte com arqueação superior a 100 AB",
+      "Embarcações comerciais com bandeira brasileira",
+      "Balsas de transporte de carga em águas desabrigadas"
+    ],
+    "correctIndex": 1,
+    "explanation": "Embarcações miúdas (comprimento até 5m ou até 8m sem cabine com motor até 50HP) são dispensadas de gravar nome no costado, sendo identificadas pelo número de inscrição TIEM.",
+    "normReference": "NORMAM-03/211 / Apostila Unidade 1 pág. 11"
+  },
+  {
+    "id": 454,
+    "topic": "Legislação Náutica",
+    "subtopic": "Pavilhão Nacional",
+    "question": "Nas embarcações de esporte e recreio brasileiras, em qual situação é expressamente dispensado o uso obrigatório da Bandeira Nacional na popa?",
+    "options": [
+      "Ao cruzar com navios de guerra da Marinha do Brasil",
+      "Durante as horas compreendidas entre as 08:00h e o pôr do sol",
+      "Em embarcações miúdas navegando em águas interiores",
+      "Quando navegando em mar aberto de cabotagem",
+      "Ao entrar ou sair de portos estrangeiros de dia"
+    ],
+    "correctIndex": 2,
+    "explanation": "A legislação náutica e a NORMAM dispensam as embarcações miúdas da obrigatoriedade do porte e hasteamento do Pavilhão Nacional durante a navegação interior.",
+    "normReference": "NORMAM-03/211 / RLESTA / Apostila Unidade 1 pág. 11"
+  },
+  {
+    "id": 455,
+    "topic": "Primeiros Socorros, Salvatagem e Incêndio",
+    "subtopic": "Reanimação Cardiopulmonar",
+    "question": "Ao posicionar uma vítima sem pulso e sem movimentos respiratórios para início das manobras de RCP, qual deve ser sua postura no solo?",
+    "options": [
+      "Deitada de costas com o tórax em superfície rígida e plana (decúbito dorsal)",
+      "Deitada de bruços para facilitar a drenagem de saliva (decúbito ventral)",
+      "Sentada encostada na antepara com pernas dobradas",
+      "Deitada de lado em posição lateral de recuperação com tórax elevado",
+      "Com o tronco suspenso e a cabeça fletida sobre o peito"
+    ],
+    "correctIndex": 0,
+    "explanation": "Para que as compressões torácicas comprimam eficientemente o coração entre o osso esterno e a coluna vertebral, a vítima deve estar em decúbito dorsal (barriga para cima) sobre base rígida.",
+    "normReference": "PRISOC / Apostila Unidade 4 pág. 43"
+  },
+  {
+    "id": 456,
+    "topic": "Manobra, Atracação e Fundeio",
+    "subtopic": "Cabos de Amarração",
+    "question": "Como são genericamente chamados todos os cabos de bitola reforçada empregados para amarrar com firmeza a embarcação ao cais, trapiche ou pier?",
+    "options": [
+      "Retinidas",
+      "Cabresteiras de bordo",
+      "Cordas comuns",
+      "Espias",
+      "Amarras de ferro"
+    ],
+    "correctIndex": 3,
+    "explanation": "No linguajar marinheiro e na arte naval, os cabos principais usados na amarração ao cais, cabeços ou outros navios recebem a denominação técnica de ESPIAS.",
+    "normReference": "Arte Naval / Apostila Unidade 2 pág. 19"
+  },
+  {
+    "id": 457,
+    "topic": "Manobra, Atracação e Fundeio",
+    "subtopic": "Atracação com Vento Perpendicular",
+    "question": "Ao manobrar para atracar ao cais sob a ação de vento ou correnteza perpendiculares empurrando a embarcação em direção ao cais (por barlavento), como se deve aproximar?",
+    "options": [
+      "Em alta velocidade de proa a 90° para furar a marola",
+      "Aproximando de ré em ângulo de 45° com motor acelerado",
+      "Completamente paralelo ao cais, com velocidade quase nula, deixando a força externa aproximar o casco",
+      "Em zigue-zague até a bochecha encostar no cais",
+      "Lançando a âncora a vante e puxando o cabo pelo través de ré"
+    ],
+    "correctIndex": 2,
+    "explanation": "Na aproximação com vento de barlavento (perpendicular ao cais empurrando para o atracadouro), aproxima-se paralelo, bem devagar, permitindo que a própria força empurre o barco suavemente com defensas prontas.",
+    "normReference": "Arte Naval / Apostila Unidade 2 pág. 20 (Figura 1)"
+  },
+  {
+    "id": 458,
+    "topic": "Legislação Náutica",
+    "subtopic": "Categorias de Amadores",
+    "question": "Qual é a única Carteira de Habilitação de Amador que pode ser obtida por um menor de 18 anos (a partir dos 8 anos de idade completos)?",
+    "options": [
+      "Arrais-Amador",
+      "Motonauta",
+      "Mestre-Amador",
+      "Capitão-Amador",
+      "Veleiro"
+    ],
+    "correctIndex": 4,
+    "explanation": "A idade mínima para obtenção da habilitação de Veleiro é de 8 (oito) anos. Para todas as demais categorias de Amador (Motonauta, Arrais-Amador, Mestre e Capitão) exige-se 18 anos completos.",
+    "normReference": "NORMAM-03/211 / Apostila Unidade 1 pág. 9"
+  },
+  {
+    "id": 459,
+    "topic": "Primeiros Socorros, Salvatagem e Incêndio",
+    "subtopic": "Histórico de Agentes Extintores",
+    "question": "Qual consagrado gás extintor de incêndio foi banido e proibido para novas instalações e recargas a partir do ano 2000 devido aos severos danos causados à camada de ozônio?",
+    "options": [
+      "Pó Químico Seco PQS",
+      "Dióxido de Carbono CO2",
+      "Monóxido de Carbono",
+      "Gás Nitrogênio criogênico",
+      "Gás Halon"
+    ],
+    "correctIndex": 4,
+    "explanation": "O Gás Halon (compostos halogenados CFC), embora excelente para abafar e quebrar a reação em cadeia, foi proibido globalmente pelo Protocolo de Montreal por destruir a camada de ozônio.",
+    "normReference": "CBINC / Convenções Ambientais / Apostila Unidade 5 pág. 53"
+  },
+  {
+    "id": 460,
+    "topic": "Legislação Náutica",
+    "subtopic": "Atribuições do Comandante",
+    "question": "Segundo a Lei de Segurança do Tráfego Aquaviário (LESTA), como se designa o tripulante responsável supremo pela operação e manutenção da embarcação em condições de segurança?",
+    "options": [
+      "Chefe de Máquinas",
+      "Comandante (ou Mestre, Arrais, Patrão)",
+      "Armador Proprietário",
+      "Prático Embarcado",
+      "Imediato de Segurança"
+    ],
+    "correctIndex": 1,
+    "explanation": "Art. 2º da LESTA: Comandante (também denominado Mestre, Arrais ou Patrão) é o tripulante responsável pela operação e manutenção da embarcação, em condições de segurança extensivas à carga e pessoas.",
+    "normReference": "LESTA Lei nº 9.537/97 Art. 2º / Apostila Unidade 1 pág. 5"
+  },
+  {
+    "id": 461,
+    "topic": "Primeiros Socorros, Salvatagem e Incêndio",
+    "subtopic": "Homologação de Equipamentos",
+    "question": "Para que um colete salva-vidas de procedência estrangeira seja legalmente aceito a bordo de uma embarcação brasileira, qual convenção internacional deve ter homologado seu projeto?",
+    "options": [
+      "Convenção USCG Coastal Guard",
+      "Acordo Regional IALA",
+      "Convenção STCW de Trabalho Marítimo",
+      "Convenção Internacional para a Salvaguarda da Vida Humana no Mar (SOLAS)",
+      "Acordo Geral de Tarifas e Comércio GATT"
+    ],
+    "correctIndex": 3,
+    "explanation": "Materiais estrangeiros de salvatagem podem ser aceitos pela Diretoria de Portos e Costas (DPC) desde que certificados em conformidade com as exigências da Convenção SOLAS 74/78.",
+    "normReference": "SOLAS 74/78 / NORMAM-03/211 / Apostila Unidade 6 pág. 63"
+  },
+  {
+    "id": 462,
+    "topic": "Primeiros Socorros, Salvatagem e Incêndio",
+    "subtopic": "Incêndios Classe D",
+    "question": "Um incêndio ocorrido em carga contendo metal combustível (como magnésio, sódio, zinco ou titânio) pertence à Classe D. Qual agente extintor NUNCA deve ser utilizado?",
+    "options": [
+      "Água (sob qualquer forma de jato ou neblina)",
+      "Pó seco especial para metais MET-L-X",
+      "Compostos granulados de grafite pura",
+      "Compostos secos de cloreto de sódio",
+      "Pó químico extintor Classe D"
+    ],
+    "correctIndex": 0,
+    "explanation": "A aplicação de ÁGUA em metais alcalinos ou combustíveis aquecidos causa decomposição explosiva violenta, gerando gás hidrogênio que inflama imediatamente. Exige-se pó seco tipo MET-L-X.",
+    "normReference": "CBINC / Apostila Unidade 5 pág. 53 e 54"
+  },
+  {
+    "id": 463,
+    "topic": "Legislação Náutica",
+    "subtopic": "Exercício Profissional Aquaviário",
+    "question": "Como se classifica o profissional legalmente certificado pela Autoridade Marítima para exercer profissão a bordo de embarcações, tripulando-as mediante remuneração?",
+    "options": [
+      "Amador esportivo",
+      "Armador de cabotagem",
+      "Aquaviário",
+      "Timoneiro de recreio",
+      "Passageiro especial"
+    ],
+    "correctIndex": 2,
+    "explanation": "Aquaviário é todo aquele com habilitação certificada pela autoridade marítima para operar embarcações em caráter profissional, diferenciando-se expressamente do Amador.",
+    "normReference": "LESTA Lei nº 9.537/97 Art. 2º / Apostila Unidade 1 pág. 4"
+  },
+  {
+    "id": 464,
+    "topic": "Primeiros Socorros, Salvatagem e Incêndio",
+    "subtopic": "Queimaduras",
+    "question": "Qual é o sinal característico evidente de uma queimadura de 1º grau (como a queimadura solar superficial)?",
+    "options": [
+      "Presença de flictenas (bolhas d'água) com plasma",
+      "Vermelhidão superficial na pele (eritema) e dor local sem formação de bolhas",
+      "Destruição profunda da epiderme e necrose do tecido",
+      "Insensibilidade térmica por destruição total das terminações nervosas",
+      "Exposição de fáscias musculares e vasos sanguíneos"
+    ],
+    "correctIndex": 1,
+    "explanation": "A queimadura de 1º grau atinge apenas a epiderme superficial, produzindo calor, dor e vermelhidão (eritema), SEM bolhas. A formação de bolhas já caracteriza 2º grau.",
+    "normReference": "PRISOC / Apostila Unidade 4 pág. 44"
+  },
+  {
+    "id": 465,
+    "topic": "RIPEAM",
+    "subtopic": "Curvas Cegas em Canais",
+    "question": "Navegando em canal estreito ou rio e aproximando-se de uma curva de raio fechado com visibilidade encoberta por morros ou vegetação, ao ouvir um apito longo de outra embarcação vindo no sentido oposto, o que você deve fazer?",
+    "options": [
+      "Acelerar a marcha para cruzar a curva antes da outra embarcação",
+      "Soar dois apitos curtos e guinar bruscamente para bombordo",
+      "Manter o rumo a meio do canal sem responder",
+      "Soar imediatamente cinco apitos rápidos de emergência e parar a máquina",
+      "Diminuir a velocidade e responder prontamente com outro apito longo"
+    ],
+    "correctIndex": 4,
+    "explanation": "Regra 34(e) do RIPEAM: A embarcação que se aproxima de curva cega ouvindo um apito longo deve responder prontamente com UM APITO LONGO e navegar com prudência e velocidade reduzida.",
+    "normReference": "RIPEAM-72 Regra 34(e) / Apostila Unidade 3 pág. 33"
+  },
+  {
+    "id": 466,
+    "topic": "RIPEAM",
+    "subtopic": "Marcas Diurnas",
+    "question": "De acordo com a Regra 30 do RIPEAM, qual marca visual geométrica de cor preta deve ser içada durante o dia na parte de vante de uma embarcação fundeada?",
+    "options": [
+      "Um cilindro preto",
+      "Uma esfera preta (balão preto)",
+      "Três esferas pretas sobrepostas",
+      "Dois cones pretos unidos pelo vértice",
+      "Um cone preto com vértice voltado para cima"
+    ],
+    "correctIndex": 1,
+    "explanation": "Regra 30(a): Toda embarcação fundeada durante o período diurno deverá exibir no local onde melhor possa ser vista UMA ESFERA PRETA na parte de vante.",
+    "normReference": "RIPEAM-72 Regra 30 / Apostila Unidade 3 pág. 32 e 33"
   }
 ]
